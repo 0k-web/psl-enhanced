@@ -1,7 +1,7 @@
 import { appendFile, mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import tls from "node:tls";
-import { domainToASCII, pathToFileURL } from "node:url";
+import { domainToASCII } from "node:url";
 import { privatePslDomains } from "./private-psl.ts";
 
 const OUTPUT_DIR = path.resolve("data", "domain-context");
@@ -81,68 +81,56 @@ type DomainContextRecord = {
   selected_protocol: "https" | "http" | null;
 };
 
-type RunOptions = {
-  domains?: string[];
-  maxDomains?: number;
-  outputPath?: string;
-  concurrency?: number;
+// --- top-level execution ---
+
+const domains = [...privatePslDomains].sort();
+const targetDomains = domains.slice(
+  0,
+  Number.isFinite(MAX_DOMAINS) ? MAX_DOMAINS : undefined,
+);
+const outputPath = defaultOutputPath();
+const concurrency = Math.max(1, CONCURRENCY);
+
+await mkdir(path.dirname(outputPath), { recursive: true });
+await writeFile(outputPath, "", "utf8");
+
+const writer = createJsonlWriter(outputPath);
+const stats = {
+  completed: 0,
+  successes: 0,
+  failures: 0,
 };
 
-export async function scrapePrivatePslDomainContext(options: RunOptions = {}) {
-  const domains = [...(options.domains ?? [...privatePslDomains].sort())];
-  const maxDomains = options.maxDomains ?? MAX_DOMAINS;
-  const targetDomains = domains.slice(
-    0,
-    Number.isFinite(maxDomains) ? maxDomains : undefined,
-  );
-  const outputPath = options.outputPath ?? defaultOutputPath();
-  const concurrency = Math.max(1, options.concurrency ?? CONCURRENCY);
+console.log(`Scraping ${targetDomains.length} domains -> ${outputPath}`);
 
-  await mkdir(path.dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, "", "utf8");
+await runWithConcurrency(targetDomains, concurrency, async (domain) => {
+  const result = await scrapeDomain(domain);
+  await writer.write(result);
 
-  const writer = createJsonlWriter(outputPath);
-  const stats = {
-    completed: 0,
-    successes: 0,
-    failures: 0,
-  };
+  stats.completed += 1;
+  if (result.selected_protocol) {
+    stats.successes += 1;
+  } else {
+    stats.failures += 1;
+  }
 
-  console.log(`Scraping ${targetDomains.length} domains -> ${outputPath}`);
+  if (
+    stats.completed % PROGRESS_EVERY === 0 ||
+    stats.completed === targetDomains.length
+  ) {
+    console.log(
+      `progress completed=${stats.completed}/${targetDomains.length} successes=${stats.successes} failures=${stats.failures}`,
+    );
+  }
+});
 
-  await runWithConcurrency(targetDomains, concurrency, async (domain) => {
-    const result = await scrapeDomain(domain);
-    await writer.write(result);
+await writer.flush();
 
-    stats.completed += 1;
-    if (result.selected_protocol) {
-      stats.successes += 1;
-    } else {
-      stats.failures += 1;
-    }
+console.log(
+  `Done. completed=${stats.completed} successes=${stats.successes} failures=${stats.failures}`,
+);
 
-    if (
-      stats.completed % PROGRESS_EVERY === 0 ||
-      stats.completed === targetDomains.length
-    ) {
-      console.log(
-        `progress completed=${stats.completed}/${targetDomains.length} successes=${stats.successes} failures=${stats.failures}`,
-      );
-    }
-  });
-
-  await writer.flush();
-
-  console.log(
-    `Done. completed=${stats.completed} successes=${stats.successes} failures=${stats.failures}`,
-  );
-
-  return {
-    outputPath,
-    domains: targetDomains.length,
-    ...stats,
-  };
-}
+// --- helpers ---
 
 async function scrapeDomain(domain: string): Promise<DomainContextRecord> {
   const startedAt = new Date().toISOString();
@@ -635,17 +623,4 @@ async function runWithConcurrency<T>(
   );
 
   await Promise.all(workers);
-}
-
-if (isDirectRun(import.meta.url)) {
-  await scrapePrivatePslDomainContext();
-}
-
-function isDirectRun(moduleUrl: string) {
-  const entryPath = process.argv[1];
-  if (!entryPath) {
-    return false;
-  }
-
-  return moduleUrl === pathToFileURL(path.resolve(entryPath)).href;
 }

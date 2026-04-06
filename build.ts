@@ -3,7 +3,6 @@ import { createReadStream } from "node:fs";
 import { readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { createInterface } from "node:readline";
-import { pathToFileURL } from "node:url";
 
 const PSL_DIR = path.resolve("psl");
 const PSL_FILE = path.join(PSL_DIR, "public_suffix_list.dat");
@@ -90,111 +89,101 @@ type DomainContextSummary = {
   subdomainSummary: string;
 };
 
-type BuildSummary = {
-  outputPath: string;
-  privateLines: number;
-  blameRecords: number;
-  ignoredCommits: number;
-  ignoredFmtCommits: number;
-  resolvedIgnoredLines: number;
-  unresolvedIgnoredLines: number;
-  prsLoaded: number;
-  contextFile: string;
-  contextsLoaded: number;
-  contextParseFailures: number;
-  subdomainHostsFile: string;
-  subdomainDomains: number;
-  subdomainHostsScanned: number;
-  subdomainHostsMatched: number;
-};
+// --- top-level execution ---
 
-export async function buildEnrichedPrivatePslOutput(): Promise<BuildSummary> {
-  const pslSource = await readFile(PSL_FILE, "utf8");
-  const pslLines = splitLines(pslSource);
-  const privateSection = extractPrivateSection(pslLines);
-  const ignoredCommits = collectBlameIgnoreCommits();
+const pslSource = await readFile(PSL_FILE, "utf8");
+const pslLines = splitLines(pslSource);
+const privateSection = extractPrivateSection(pslLines);
+const ignoredCommits = collectBlameIgnoreCommits();
 
-  console.log(
-    `Loaded private section: lines=${privateSection.lines.length} range=${privateSection.startLine}-${privateSection.endLine}`,
+console.log(
+  `Loaded private section: lines=${privateSection.lines.length} range=${privateSection.startLine}-${privateSection.endLine}`,
+);
+console.log(
+  `Blame ignore commits: total=${ignoredCommits.all.length} psltool_fmt=${ignoredCommits.psltoolFmt.length}`,
+);
+
+const blameOutput = runGitInPsl([
+  "blame",
+  "-M",
+  "-C",
+  "-C",
+  ...buildIgnoreRevArgs(ignoredCommits.all),
+  "-L",
+  `${privateSection.startLine},${privateSection.endLine}`,
+  "--line-porcelain",
+  "--",
+  "public_suffix_list.dat",
+]);
+const blameRecords = parseBlamePorcelain(blameOutput);
+
+if (blameRecords.length !== privateSection.lines.length) {
+  throw new Error(
+    `Blame record count mismatch. expected=${privateSection.lines.length} actual=${blameRecords.length}`,
   );
-  console.log(
-    `Blame ignore commits: total=${ignoredCommits.all.length} psltool_fmt=${ignoredCommits.psltoolFmt.length}`,
-  );
+}
 
-  const blameOutput = runGitInPsl([
-    "blame",
-    "-M",
-    "-C",
-    "-C",
-    ...buildIgnoreRevArgs(ignoredCommits.all),
-    "-L",
-    `${privateSection.startLine},${privateSection.endLine}`,
-    "--line-porcelain",
-    "--",
-    "public_suffix_list.dat",
-  ]);
-  const blameRecords = parseBlamePorcelain(blameOutput);
-
-  if (blameRecords.length !== privateSection.lines.length) {
+for (let i = 0; i < blameRecords.length; i += 1) {
+  const expectedLine = privateSection.startLine + i;
+  if (blameRecords[i].lineNumber !== expectedLine) {
     throw new Error(
-      `Blame record count mismatch. expected=${privateSection.lines.length} actual=${blameRecords.length}`,
+      `Unexpected blame line number at index=${i}. expected=${expectedLine} actual=${blameRecords[i].lineNumber}`,
     );
   }
-
-  for (let i = 0; i < blameRecords.length; i += 1) {
-    const expectedLine = privateSection.startLine + i;
-    if (blameRecords[i].lineNumber !== expectedLine) {
-      throw new Error(
-        `Unexpected blame line number at index=${i}. expected=${expectedLine} actual=${blameRecords[i].lineNumber}`,
-      );
-    }
-  }
-
-  const repaired = repairIgnoredCommitAttribution(
-    blameRecords,
-    privateSection,
-    ignoredCommits.all,
-  );
-
-  const prNumbers = collectReferencedPrNumbers(repaired.records);
-  const prMap = await loadPullRequests(prNumbers);
-  const latestDomainContextPath = await findLatestDomainContextPath();
-  const domainContext = await loadDomainContext(latestDomainContextPath);
-  const subdomainUsage = await loadSubdomainUsage(privateSection.lines);
-  const combinedContextByDomain = withSubdomainSummaries(
-    domainContext.contextByDomain,
-    subdomainUsage.summaryByDomain,
-  );
-
-  const rendered = renderEnrichedPrivateSection(
-    privateSection.lines,
-    repaired.records,
-    prMap,
-    combinedContextByDomain,
-  );
-
-  await writeFile(OUTPUT_FILE, `${rendered.join("\n")}\n`, "utf8");
-
-  console.log(`Wrote ${rendered.length} lines to ${path.relative(process.cwd(), OUTPUT_FILE)}`);
-
-  return {
-    outputPath: OUTPUT_FILE,
-    privateLines: privateSection.lines.length,
-    blameRecords: repaired.records.length,
-    ignoredCommits: ignoredCommits.all.length,
-    ignoredFmtCommits: ignoredCommits.psltoolFmt.length,
-    resolvedIgnoredLines: repaired.resolvedCount,
-    unresolvedIgnoredLines: repaired.remainingIgnoredCount,
-    prsLoaded: prMap.size,
-    contextFile: latestDomainContextPath,
-    contextsLoaded: domainContext.contextByDomain.size,
-    contextParseFailures: domainContext.parseFailures,
-    subdomainHostsFile: COMMONCRAWL_HOSTS_FILE,
-    subdomainDomains: subdomainUsage.summaryByDomain.size,
-    subdomainHostsScanned: subdomainUsage.hostsScanned,
-    subdomainHostsMatched: subdomainUsage.hostsMatched,
-  };
 }
+
+const repaired = repairIgnoredCommitAttribution(
+  blameRecords,
+  privateSection,
+  ignoredCommits.all,
+);
+
+const prNumbers = collectReferencedPrNumbers(repaired.records);
+const prMap = await loadPullRequests(prNumbers);
+const latestDomainContextPath = await findLatestDomainContextPath();
+const domainContext = await loadDomainContext(latestDomainContextPath);
+const subdomainUsage = await loadSubdomainUsage(privateSection.lines);
+const combinedContextByDomain = withSubdomainSummaries(
+  domainContext.contextByDomain,
+  subdomainUsage.summaryByDomain,
+);
+
+const rendered = renderEnrichedPrivateSection(
+  privateSection.lines,
+  repaired.records,
+  prMap,
+  combinedContextByDomain,
+);
+
+await writeFile(OUTPUT_FILE, `${rendered.join("\n")}\n`, "utf8");
+
+console.log(
+  `Wrote ${rendered.length} lines to ${path.relative(process.cwd(), OUTPUT_FILE)}`,
+);
+
+console.log(
+  JSON.stringify(
+    {
+      outputPath: OUTPUT_FILE,
+      privateLines: privateSection.lines.length,
+      blameRecords: repaired.records.length,
+      ignoredCommits: ignoredCommits.all.length,
+      ignoredFmtCommits: ignoredCommits.psltoolFmt.length,
+      resolvedIgnoredLines: repaired.resolvedCount,
+      unresolvedIgnoredLines: repaired.remainingIgnoredCount,
+      prsLoaded: prMap.size,
+      contextFile: latestDomainContextPath,
+      contextsLoaded: domainContext.contextByDomain.size,
+      contextParseFailures: domainContext.parseFailures,
+      subdomainHostsFile: COMMONCRAWL_HOSTS_FILE,
+      subdomainDomains: subdomainUsage.summaryByDomain.size,
+      subdomainHostsScanned: subdomainUsage.hostsScanned,
+      subdomainHostsMatched: subdomainUsage.hostsMatched,
+    },
+    null,
+    2,
+  ),
+);
 
 function splitLines(text: string) {
   return text.split(/\r?\n/);
@@ -322,7 +311,11 @@ function repairIgnoredCommitAttribution(
     ignoredCommitSet.has(record.commit),
   ).length;
 
-  for (let pass = 1; pass <= maxPasses && remainingIgnoredCount > 0; pass += 1) {
+  for (
+    let pass = 1;
+    pass <= maxPasses && remainingIgnoredCount > 0;
+    pass += 1
+  ) {
     let resolvedInPass = 0;
 
     for (const ignoredCommit of ignoredCommits) {
@@ -338,7 +331,10 @@ function repairIgnoredCommitAttribution(
       const parentRevision = `${ignoredCommit}^`;
       let parentSource = "";
       try {
-        parentSource = runGitInPsl(["show", `${parentRevision}:public_suffix_list.dat`]);
+        parentSource = runGitInPsl([
+          "show",
+          `${parentRevision}:public_suffix_list.dat`,
+        ]);
       } catch (error) {
         const message = error instanceof Error ? error.message : String(error);
         console.error(
@@ -487,8 +483,20 @@ function chooseParentCandidateLine(options: {
   const prev2 = currentRecords[currentIndex - 2]?.text;
   const next2 = currentRecords[currentIndex + 2]?.text;
 
-  let candidates = narrowByNeighbor(parentCandidates, parentLines, parentSection, -1, prev1);
-  candidates = narrowByNeighbor(candidates, parentLines, parentSection, +1, next1);
+  let candidates = narrowByNeighbor(
+    parentCandidates,
+    parentLines,
+    parentSection,
+    -1,
+    prev1,
+  );
+  candidates = narrowByNeighbor(
+    candidates,
+    parentLines,
+    parentSection,
+    +1,
+    next1,
+  );
 
   if (candidates.length === 1) {
     return candidates[0];
@@ -503,14 +511,21 @@ function chooseParentCandidateLine(options: {
   const scored = candidates.map((lineNumber) => ({
     lineNumber,
     score:
-      scoreNeighborMatch(lineNumber, parentLines, parentSection, -1, prev1) * 4 +
-      scoreNeighborMatch(lineNumber, parentLines, parentSection, +1, next1) * 4 +
+      scoreNeighborMatch(lineNumber, parentLines, parentSection, -1, prev1) *
+        4 +
+      scoreNeighborMatch(lineNumber, parentLines, parentSection, +1, next1) *
+        4 +
       scoreNeighborMatch(lineNumber, parentLines, parentSection, -2, prev2) +
       scoreNeighborMatch(lineNumber, parentLines, parentSection, +2, next2),
     distance: Math.abs(lineNumber - expectedLine),
   }));
 
-  scored.sort((a, b) => b.score - a.score || a.distance - b.distance || a.lineNumber - b.lineNumber);
+  scored.sort(
+    (a, b) =>
+      b.score - a.score ||
+      a.distance - b.distance ||
+      a.lineNumber - b.lineNumber,
+  );
   return scored[0]?.lineNumber ?? null;
 }
 
@@ -527,7 +542,10 @@ function narrowByNeighbor(
 
   const matched = candidates.filter((lineNumber) => {
     const neighborLine = lineNumber + offset;
-    if (neighborLine < parentSection.startLine || neighborLine > parentSection.endLine) {
+    if (
+      neighborLine < parentSection.startLine ||
+      neighborLine > parentSection.endLine
+    ) {
       return false;
     }
     return parentLines[neighborLine - 1] === expectedText;
@@ -548,7 +566,10 @@ function scoreNeighborMatch(
   }
 
   const neighborLine = lineNumber + offset;
-  if (neighborLine < parentSection.startLine || neighborLine > parentSection.endLine) {
+  if (
+    neighborLine < parentSection.startLine ||
+    neighborLine > parentSection.endLine
+  ) {
     return 0;
   }
   return parentLines[neighborLine - 1] === expectedText ? 1 : 0;
@@ -562,7 +583,10 @@ function toExpectedParentLine(
 ) {
   const currentSpan = Math.max(currentCount - 1, 1);
   const ratio = currentIndex / currentSpan;
-  const parentSpan = Math.max(parentSection.endLine - parentSection.startLine, 0);
+  const parentSpan = Math.max(
+    parentSection.endLine - parentSection.startLine,
+    0,
+  );
   const projectedOffset = Math.round(parentSpan * ratio);
   const baseline = parentSection.startLine + projectedOffset;
   const lowerBound = parentSection.startLine;
@@ -624,7 +648,9 @@ async function loadPullRequests(prNumbers: Set<number>) {
     }
   }
 
-  console.log(`Loaded PR archives: requested=${prNumbers.size} found=${pullByNumber.size}`);
+  console.log(
+    `Loaded PR archives: requested=${prNumbers.size} found=${pullByNumber.size}`,
+  );
   return pullByNumber;
 }
 
@@ -651,7 +677,9 @@ async function findLatestDomainContextPath() {
     throw new Error(`No domain context runs found in ${DOMAIN_CONTEXT_DIR}`);
   }
 
-  candidates.sort((a, b) => b.mtimeMs - a.mtimeMs || b.path.localeCompare(a.path));
+  candidates.sort(
+    (a, b) => b.mtimeMs - a.mtimeMs || b.path.localeCompare(a.path),
+  );
   return candidates[0].path;
 }
 
@@ -678,7 +706,8 @@ async function loadDomainContext(filePath: string) {
       continue;
     }
 
-    const domain = typeof parsed?.domain === "string" ? parsed.domain.toLowerCase() : "";
+    const domain =
+      typeof parsed?.domain === "string" ? parsed.domain.toLowerCase() : "";
     if (!domain) {
       continue;
     }
@@ -714,18 +743,27 @@ type ReversedPrefixInterval = {
   end: string;
 };
 
-async function loadSubdomainUsage(privateLines: string[]): Promise<SubdomainUsage> {
+async function loadSubdomainUsage(
+  privateLines: string[],
+): Promise<SubdomainUsage> {
   try {
     await stat(COMMONCRAWL_HOSTS_FILE);
   } catch {
-    throw new Error(`Missing Common Crawl hosts file: ${COMMONCRAWL_HOSTS_FILE}`);
+    throw new Error(
+      `Missing Common Crawl hosts file: ${COMMONCRAWL_HOSTS_FILE}`,
+    );
   }
 
   const targetDomains = collectPrivateSectionDomains(privateLines);
   const intervals = buildReversedPrefixIntervals(targetDomains);
-  const reversedDomainByDomain = new Map(intervals.map((interval) => [interval.domain, interval.reversedDomain]));
+  const reversedDomainByDomain = new Map(
+    intervals.map((interval) => [interval.domain, interval.reversedDomain]),
+  );
   const statsByDomain = new Map<string, MutableSubdomainStats>(
-    intervals.map((interval) => [interval.domain, { count: 0, sharedSuffixReversed: interval.reversedDomain }]),
+    intervals.map((interval) => [
+      interval.domain,
+      { count: 0, sharedSuffixReversed: interval.reversedDomain },
+    ]),
   );
 
   const lineReader = createInterface({
@@ -766,7 +804,10 @@ async function loadSubdomainUsage(privateLines: string[]): Promise<SubdomainUsag
       activeIntervalsByDomain.delete(expired.domain);
     }
 
-    while (nextIntervalIndex < intervals.length && intervals[nextIntervalIndex].start <= hostReversed) {
+    while (
+      nextIntervalIndex < intervals.length &&
+      intervals[nextIntervalIndex].start <= hostReversed
+    ) {
       const interval = intervals[nextIntervalIndex];
       if (hostReversed <= interval.end) {
         activeIntervalsByDomain.set(interval.domain, interval);
@@ -786,21 +827,29 @@ async function loadSubdomainUsage(privateLines: string[]): Promise<SubdomainUsag
       }
 
       stats.count += 1;
-      stats.sharedSuffixReversed = stats.count === 1
-        ? hostReversed
-        : longestCommonLabelPrefix(stats.sharedSuffixReversed, hostReversed) || interval.reversedDomain;
+      stats.sharedSuffixReversed =
+        stats.count === 1
+          ? hostReversed
+          : longestCommonLabelPrefix(
+              stats.sharedSuffixReversed,
+              hostReversed,
+            ) || interval.reversedDomain;
       hostsMatched += 1;
     }
 
     if (hostsScanned % SUBDOMAIN_PROGRESS_EVERY === 0) {
-      console.log(`Subdomain usage progress: scanned=${hostsScanned} matched=${hostsMatched}`);
+      console.log(
+        `Subdomain usage progress: scanned=${hostsScanned} matched=${hostsMatched}`,
+      );
     }
   }
 
   const summaryByDomain = new Map<string, string>();
   for (const [domain, stats] of statsByDomain) {
     const sharedSuffix = reverseDomainLabels(
-      stats.sharedSuffixReversed || reversedDomainByDomain.get(domain) || domain,
+      stats.sharedSuffixReversed ||
+        reversedDomainByDomain.get(domain) ||
+        domain,
     );
     summaryByDomain.set(
       domain,
@@ -844,7 +893,10 @@ function buildReversedPrefixIntervals(domains: string[]) {
     };
   });
 
-  intervals.sort((a, b) => a.start.localeCompare(b.start) || a.domain.localeCompare(b.domain));
+  intervals.sort(
+    (a, b) =>
+      a.start.localeCompare(b.start) || a.domain.localeCompare(b.domain),
+  );
   return intervals;
 }
 
@@ -868,7 +920,10 @@ function reverseDomainLabels(domain: string) {
   return domain.split(".").reverse().join(".");
 }
 
-function pushIntervalByEnd(heap: ReversedPrefixInterval[], value: ReversedPrefixInterval) {
+function pushIntervalByEnd(
+  heap: ReversedPrefixInterval[],
+  value: ReversedPrefixInterval,
+) {
   heap.push(value);
   let index = heap.length - 1;
 
@@ -899,7 +954,7 @@ function popIntervalByEnd(heap: ReversedPrefixInterval[]) {
   let index = 0;
 
   while (true) {
-    const left = (index * 2) + 1;
+    const left = index * 2 + 1;
     const right = left + 1;
     let smallest = index;
 
@@ -951,7 +1006,11 @@ function withSubdomainSummaries(
   return merged;
 }
 
-function formatSubdomainSummary(domain: string, count: number, sharedSuffix: string) {
+function formatSubdomainSummary(
+  domain: string,
+  count: number,
+  sharedSuffix: string,
+) {
   if (count === 0) {
     return "0 subdomains";
   }
@@ -1015,7 +1074,9 @@ function summarizeDomainContext(record: any): DomainContextSummary {
   const textSource = description || textExcerpt;
   let snippet = pickUsefulSnippet(textSource);
   if (title && snippet.startsWith(title)) {
-    snippet = normalizeWhitespace(snippet.slice(title.length).replace(/^[\-:|. ]+/u, ""));
+    snippet = normalizeWhitespace(
+      snippet.slice(title.length).replace(/^[\-:|. ]+/u, ""),
+    );
   }
   snippet = clip(snippet, MAX_CONTEXT_TEXT_CHARS);
 
@@ -1114,7 +1175,9 @@ function pickUsefulSnippet(text: string) {
     return normalized;
   }
 
-  const startIndex = sentences.findIndex((sentence) => isUsefulSentence(sentence));
+  const startIndex = sentences.findIndex((sentence) =>
+    isUsefulSentence(sentence),
+  );
   if (startIndex === -1) {
     return normalized;
   }
@@ -1151,7 +1214,9 @@ function isUsefulSentence(sentence: string) {
     "sign in",
     "get started",
   ];
-  const hintCount = navigationHints.filter((hint) => lowered.includes(hint)).length;
+  const hintCount = navigationHints.filter((hint) =>
+    lowered.includes(hint),
+  ).length;
   return hintCount <= 1;
 }
 
@@ -1166,7 +1231,9 @@ function renderEnrichedPrivateSection(
   contextByDomain: Map<string, DomainContextSummary>,
 ) {
   const output: string[] = [];
-  const attributions = blameRecords.map((blame) => buildAttribution(blame, pullByNumber));
+  const attributions = blameRecords.map((blame) =>
+    buildAttribution(blame, pullByNumber),
+  );
 
   for (let index = 0; index < privateLines.length; ) {
     const attribution = attributions[index];
@@ -1179,15 +1246,17 @@ function renderEnrichedPrivateSection(
     }
 
     const runLength = runEnd - index;
-    const isSingleBlankLineRun =
-      runLength === 1 && !privateLines[index].trim();
+    const isSingleBlankLineRun = runLength === 1 && !privateLines[index].trim();
 
     if (!isSingleBlankLineRun) {
       output.push(attribution.headerLine);
     }
 
     for (let lineIndex = index; lineIndex < runEnd; lineIndex += 1) {
-      const enrichedLine = appendDomainContext(privateLines[lineIndex], contextByDomain);
+      const enrichedLine = appendDomainContext(
+        privateLines[lineIndex],
+        contextByDomain,
+      );
       output.push(enrichedLine);
     }
 
@@ -1197,15 +1266,16 @@ function renderEnrichedPrivateSection(
   return output;
 }
 
-function buildAttribution(blame: BlameRecord, pullByNumber: Map<number, PullRecord>) {
+function buildAttribution(
+  blame: BlameRecord,
+  pullByNumber: Map<number, PullRecord>,
+) {
   const prNumber = extractPrNumber(blame.summary);
-  const pull = prNumber === null ? null : pullByNumber.get(prNumber) ?? null;
+  const pull = prNumber === null ? null : (pullByNumber.get(prNumber) ?? null);
 
   if (pull) {
     const actor = normalizeActor(
-      pull.user?.login ||
-        emailHandle(blame.authorMail) ||
-        blame.author,
+      pull.user?.login || emailHandle(blame.authorMail) || blame.author,
     );
     const title = pull.title?.trim() || blame.summary || `PR #${pull.number}`;
     const body = normalizePrBody(pull.body ?? "");
@@ -1236,7 +1306,9 @@ function normalizePrBody(rawBody: string) {
     .replace(/^\s*[-*]\s*\[[ xX]\]\s+.*$/gmu, "")
     .replace(/^\s*Public Suffix List \(PSL\) Submission\s*$/gimu, "");
 
-  const lines = withoutComments.split("\n").map((line) => line.replace(/\s+$/u, ""));
+  const lines = withoutComments
+    .split("\n")
+    .map((line) => line.replace(/\s+$/u, ""));
   const sections = new Map<string, string[]>();
   let activeSection: string | null = null;
 
@@ -1293,9 +1365,7 @@ function normalizePrBody(rawBody: string) {
 
 function toCanonicalSection(rawHeading: string) {
   const markdownHeading = rawHeading.replace(/^#+\s+/u, "").trim();
-  const normalized = markdownHeading
-    .replace(/[ :]+$/u, "")
-    .toLowerCase();
+  const normalized = markdownHeading.replace(/[ :]+$/u, "").toLowerCase();
 
   return SECTION_ALIASES[normalized] ?? null;
 }
@@ -1439,7 +1509,8 @@ function extractDomainsFromTextLine(line: string) {
 
   DOMAIN_EXTRACTOR.lastIndex = 0;
   for (const match of line.matchAll(DOMAIN_EXTRACTOR)) {
-    const extracted = match[1] ?? match[2] ?? match[3] ?? match[4] ?? match[5] ?? "";
+    const extracted =
+      match[1] ?? match[2] ?? match[3] ?? match[4] ?? match[5] ?? "";
     const normalized = normalizeDomain(extracted);
     if (!normalized || seen.has(normalized)) {
       continue;
@@ -1475,9 +1546,8 @@ function normalizePslRuleLine(line: string) {
   }
 
   const commentStart = trimmed.indexOf("//");
-  const withoutComment = commentStart === -1
-    ? trimmed
-    : trimmed.slice(0, commentStart).trim();
+  const withoutComment =
+    commentStart === -1 ? trimmed : trimmed.slice(0, commentStart).trim();
   if (!withoutComment) {
     return "";
   }
@@ -1551,17 +1621,4 @@ function runGitInPsl(args: string[]) {
   throw new Error(
     `git ${args.join(" ")} failed (status=${result.status ?? "null"}): ${stderr || spawnError || "unknown error"}`,
   );
-}
-
-if (isDirectRun(import.meta.url)) {
-  const summary = await buildEnrichedPrivatePslOutput();
-  console.log(JSON.stringify(summary, null, 2));
-}
-
-function isDirectRun(moduleUrl: string) {
-  const entryPath = process.argv[1];
-  if (!entryPath) {
-    return false;
-  }
-  return moduleUrl === pathToFileURL(path.resolve(entryPath)).href;
 }
