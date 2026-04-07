@@ -1,0 +1,5528 @@
+{
+  "co.krd": [],
+  "edu.krd": [],
+  "art.pl": [],
+  "gliwice.pl": [],
+  "krakow.pl": [],
+  "poznan.pl": [],
+  "wroc.pl": [],
+  "zakopane.pl": [],
+  "cc.ua": [],
+  "inf.ua": [],
+  "ltd.ua": [],
+  "611.to": [],
+  "a2hosted.com": [],
+  "cpserver.com": [],
+  "*.on-acorn.io": [],
+  "activetrail.biz": [],
+  "adaptable.app": [],
+  "myaddr.dev": [],
+  "myaddr.io": [],
+  "dyn.addr.tools": [],
+  "myaddr.tools": [],
+  "adobeaemcloud.com": [],
+  "*.dev.adobeaemcloud.com": [],
+  "aem.live": [],
+  "hlx.live": [],
+  "adobeaemcloud.net": [],
+  "aem.network": [],
+  "aem.page": [],
+  "hlx.page": [],
+  "aem.reviews": [],
+  "adobeio-static.net": [],
+  "adobeioruntime.net": [
+    "serverless_js_paid"
+  ],
+  "africa.com": [],
+  "*.auiusercontent.com": [],
+  "beep.pl": [],
+  "aiven.app": [],
+  "aivencloud.com": [],
+  "akadns.net": [],
+  "akamai.net": [],
+  "akamai-staging.net": [],
+  "akamaiedge.net": [],
+  "akamaiedge-staging.net": [],
+  "akamaihd.net": [],
+  "akamaihd-staging.net": [],
+  "akamaiorigin.net": [],
+  "akamaiorigin-staging.net": [],
+  "akamaized.net": [],
+  "akamaized-staging.net": [],
+  "edgekey.net": [],
+  "edgekey-staging.net": [],
+  "edgesuite.net": [],
+  "edgesuite-staging.net": [],
+  "barsy.ca": [],
+  "*.compute.estate": [],
+  "*.alces.network": [],
+  "alibabacloudcs.com": [],
+  "ms.fun": [],
+  "ms.show": [],
+  "kasserver.com": [
+    "static_paid"
+  ],
+  "altervista.org": [
+    "static_free"
+  ],
+  "alwaysdata.net": [],
+  "myamaze.net": [],
+  "execute-api.cn-north-1.amazonaws.com.cn": [
+    "serverless_js_paid"
+  ],
+  "execute-api.cn-northwest-1.amazonaws.com.cn": [
+    "serverless_js_paid"
+  ],
+  "execute-api.af-south-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-east-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-northeast-1.amazonaws.com": [],
+  "execute-api.ap-northeast-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-northeast-3.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-south-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-south-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-southeast-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-southeast-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-southeast-3.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-southeast-4.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ap-southeast-5.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ca-central-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.ca-west-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-central-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-central-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-north-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-south-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-south-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-west-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-west-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.eu-west-3.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.il-central-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.me-central-1.amazonaws.com": [],
+  "execute-api.me-south-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.sa-east-1.amazonaws.com": [],
+  "execute-api.us-east-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.us-east-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.us-gov-east-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.us-gov-west-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.us-west-1.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "execute-api.us-west-2.amazonaws.com": [
+    "serverless_js_paid"
+  ],
+  "cloudfront.net": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "auth.af-south-1.amazoncognito.com": [],
+  "auth.ap-east-1.amazoncognito.com": [],
+  "auth.ap-northeast-1.amazoncognito.com": [],
+  "auth.ap-northeast-2.amazoncognito.com": [],
+  "auth.ap-northeast-3.amazoncognito.com": [],
+  "auth.ap-south-1.amazoncognito.com": [],
+  "auth.ap-south-2.amazoncognito.com": [],
+  "auth.ap-southeast-1.amazoncognito.com": [],
+  "auth.ap-southeast-2.amazoncognito.com": [],
+  "auth.ap-southeast-3.amazoncognito.com": [],
+  "auth.ap-southeast-4.amazoncognito.com": [],
+  "auth.ap-southeast-5.amazoncognito.com": [],
+  "auth.ap-southeast-7.amazoncognito.com": [],
+  "auth.ca-central-1.amazoncognito.com": [],
+  "auth.ca-west-1.amazoncognito.com": [],
+  "auth.eu-central-1.amazoncognito.com": [],
+  "auth.eu-central-2.amazoncognito.com": [],
+  "auth.eu-north-1.amazoncognito.com": [],
+  "auth.eu-south-1.amazoncognito.com": [],
+  "auth.eu-south-2.amazoncognito.com": [],
+  "auth.eu-west-1.amazoncognito.com": [],
+  "auth.eu-west-2.amazoncognito.com": [],
+  "auth.eu-west-3.amazoncognito.com": [],
+  "auth.il-central-1.amazoncognito.com": [],
+  "auth.me-central-1.amazoncognito.com": [],
+  "auth.me-south-1.amazoncognito.com": [],
+  "auth.mx-central-1.amazoncognito.com": [],
+  "auth.sa-east-1.amazoncognito.com": [],
+  "auth.us-east-1.amazoncognito.com": [],
+  "auth-fips.us-east-1.amazoncognito.com": [],
+  "auth.us-east-2.amazoncognito.com": [],
+  "auth-fips.us-east-2.amazoncognito.com": [],
+  "auth-fips.us-gov-east-1.amazoncognito.com": [],
+  "auth-fips.us-gov-west-1.amazoncognito.com": [],
+  "auth.us-west-1.amazoncognito.com": [],
+  "auth-fips.us-west-1.amazoncognito.com": [],
+  "auth.us-west-2.amazoncognito.com": [],
+  "auth-fips.us-west-2.amazoncognito.com": [],
+  "auth.cognito-idp.eusc-de-east-1.on.amazonwebservices.eu": [],
+  "*.compute.amazonaws.com.cn": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "*.compute.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "*.compute-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us-east-1.amazonaws.com": [],
+  "emrappui-prod.cn-north-1.amazonaws.com.cn": [],
+  "emrnotebooks-prod.cn-north-1.amazonaws.com.cn": [],
+  "emrstudio-prod.cn-north-1.amazonaws.com.cn": [],
+  "emrappui-prod.cn-northwest-1.amazonaws.com.cn": [],
+  "emrnotebooks-prod.cn-northwest-1.amazonaws.com.cn": [],
+  "emrstudio-prod.cn-northwest-1.amazonaws.com.cn": [],
+  "emrappui-prod.af-south-1.amazonaws.com": [],
+  "emrnotebooks-prod.af-south-1.amazonaws.com": [],
+  "emrstudio-prod.af-south-1.amazonaws.com": [],
+  "emrappui-prod.ap-east-1.amazonaws.com": [],
+  "emrnotebooks-prod.ap-east-1.amazonaws.com": [],
+  "emrstudio-prod.ap-east-1.amazonaws.com": [],
+  "emrappui-prod.ap-northeast-1.amazonaws.com": [],
+  "emrnotebooks-prod.ap-northeast-1.amazonaws.com": [],
+  "emrstudio-prod.ap-northeast-1.amazonaws.com": [],
+  "emrappui-prod.ap-northeast-2.amazonaws.com": [],
+  "emrnotebooks-prod.ap-northeast-2.amazonaws.com": [],
+  "emrstudio-prod.ap-northeast-2.amazonaws.com": [],
+  "emrappui-prod.ap-northeast-3.amazonaws.com": [],
+  "emrnotebooks-prod.ap-northeast-3.amazonaws.com": [],
+  "emrstudio-prod.ap-northeast-3.amazonaws.com": [],
+  "emrappui-prod.ap-south-1.amazonaws.com": [],
+  "emrnotebooks-prod.ap-south-1.amazonaws.com": [],
+  "emrstudio-prod.ap-south-1.amazonaws.com": [],
+  "emrappui-prod.ap-south-2.amazonaws.com": [],
+  "emrnotebooks-prod.ap-south-2.amazonaws.com": [],
+  "emrstudio-prod.ap-south-2.amazonaws.com": [],
+  "emrappui-prod.ap-southeast-1.amazonaws.com": [],
+  "emrnotebooks-prod.ap-southeast-1.amazonaws.com": [],
+  "emrstudio-prod.ap-southeast-1.amazonaws.com": [],
+  "emrappui-prod.ap-southeast-2.amazonaws.com": [],
+  "emrnotebooks-prod.ap-southeast-2.amazonaws.com": [],
+  "emrstudio-prod.ap-southeast-2.amazonaws.com": [],
+  "emrappui-prod.ap-southeast-3.amazonaws.com": [],
+  "emrnotebooks-prod.ap-southeast-3.amazonaws.com": [],
+  "emrstudio-prod.ap-southeast-3.amazonaws.com": [],
+  "emrappui-prod.ap-southeast-4.amazonaws.com": [],
+  "emrnotebooks-prod.ap-southeast-4.amazonaws.com": [],
+  "emrstudio-prod.ap-southeast-4.amazonaws.com": [],
+  "emrappui-prod.ca-central-1.amazonaws.com": [],
+  "emrnotebooks-prod.ca-central-1.amazonaws.com": [],
+  "emrstudio-prod.ca-central-1.amazonaws.com": [],
+  "emrappui-prod.ca-west-1.amazonaws.com": [],
+  "emrnotebooks-prod.ca-west-1.amazonaws.com": [],
+  "emrstudio-prod.ca-west-1.amazonaws.com": [],
+  "emrappui-prod.eu-central-1.amazonaws.com": [],
+  "emrnotebooks-prod.eu-central-1.amazonaws.com": [],
+  "emrstudio-prod.eu-central-1.amazonaws.com": [],
+  "emrappui-prod.eu-central-2.amazonaws.com": [],
+  "emrnotebooks-prod.eu-central-2.amazonaws.com": [],
+  "emrstudio-prod.eu-central-2.amazonaws.com": [],
+  "emrappui-prod.eu-north-1.amazonaws.com": [],
+  "emrnotebooks-prod.eu-north-1.amazonaws.com": [],
+  "emrstudio-prod.eu-north-1.amazonaws.com": [],
+  "emrappui-prod.eu-south-1.amazonaws.com": [],
+  "emrnotebooks-prod.eu-south-1.amazonaws.com": [],
+  "emrstudio-prod.eu-south-1.amazonaws.com": [],
+  "emrappui-prod.eu-south-2.amazonaws.com": [],
+  "emrnotebooks-prod.eu-south-2.amazonaws.com": [],
+  "emrstudio-prod.eu-south-2.amazonaws.com": [],
+  "emrappui-prod.eu-west-1.amazonaws.com": [],
+  "emrnotebooks-prod.eu-west-1.amazonaws.com": [],
+  "emrstudio-prod.eu-west-1.amazonaws.com": [],
+  "emrappui-prod.eu-west-2.amazonaws.com": [],
+  "emrnotebooks-prod.eu-west-2.amazonaws.com": [],
+  "emrstudio-prod.eu-west-2.amazonaws.com": [],
+  "emrappui-prod.eu-west-3.amazonaws.com": [],
+  "emrnotebooks-prod.eu-west-3.amazonaws.com": [],
+  "emrstudio-prod.eu-west-3.amazonaws.com": [],
+  "emrappui-prod.il-central-1.amazonaws.com": [],
+  "emrnotebooks-prod.il-central-1.amazonaws.com": [],
+  "emrstudio-prod.il-central-1.amazonaws.com": [],
+  "emrappui-prod.me-central-1.amazonaws.com": [],
+  "emrnotebooks-prod.me-central-1.amazonaws.com": [],
+  "emrstudio-prod.me-central-1.amazonaws.com": [],
+  "emrappui-prod.me-south-1.amazonaws.com": [],
+  "emrnotebooks-prod.me-south-1.amazonaws.com": [],
+  "emrstudio-prod.me-south-1.amazonaws.com": [],
+  "emrappui-prod.sa-east-1.amazonaws.com": [],
+  "emrnotebooks-prod.sa-east-1.amazonaws.com": [],
+  "emrstudio-prod.sa-east-1.amazonaws.com": [],
+  "emrappui-prod.us-east-1.amazonaws.com": [],
+  "emrnotebooks-prod.us-east-1.amazonaws.com": [],
+  "emrstudio-prod.us-east-1.amazonaws.com": [],
+  "emrappui-prod.us-east-2.amazonaws.com": [],
+  "emrnotebooks-prod.us-east-2.amazonaws.com": [],
+  "emrstudio-prod.us-east-2.amazonaws.com": [],
+  "emrappui-prod.us-gov-east-1.amazonaws.com": [],
+  "emrnotebooks-prod.us-gov-east-1.amazonaws.com": [],
+  "emrstudio-prod.us-gov-east-1.amazonaws.com": [],
+  "emrappui-prod.us-gov-west-1.amazonaws.com": [],
+  "emrnotebooks-prod.us-gov-west-1.amazonaws.com": [],
+  "emrstudio-prod.us-gov-west-1.amazonaws.com": [],
+  "emrappui-prod.us-west-1.amazonaws.com": [],
+  "emrnotebooks-prod.us-west-1.amazonaws.com": [],
+  "emrstudio-prod.us-west-1.amazonaws.com": [],
+  "emrappui-prod.us-west-2.amazonaws.com": [],
+  "emrnotebooks-prod.us-west-2.amazonaws.com": [],
+  "emrstudio-prod.us-west-2.amazonaws.com": [],
+  "*.airflow.af-south-1.on.aws": [],
+  "*.airflow.ap-east-1.on.aws": [],
+  "*.airflow.ap-northeast-1.on.aws": [],
+  "*.airflow.ap-northeast-2.on.aws": [],
+  "*.airflow.ap-northeast-3.on.aws": [],
+  "*.airflow.ap-south-1.on.aws": [],
+  "*.airflow.ap-south-2.on.aws": [],
+  "*.airflow.ap-southeast-1.on.aws": [],
+  "*.airflow.ap-southeast-2.on.aws": [],
+  "*.airflow.ap-southeast-3.on.aws": [],
+  "*.airflow.ap-southeast-4.on.aws": [],
+  "*.airflow.ap-southeast-5.on.aws": [],
+  "*.airflow.ca-central-1.on.aws": [],
+  "*.airflow.ca-west-1.on.aws": [],
+  "*.airflow.eu-central-1.on.aws": [],
+  "*.airflow.eu-central-2.on.aws": [],
+  "*.airflow.eu-north-1.on.aws": [],
+  "*.airflow.eu-south-1.on.aws": [],
+  "*.airflow.eu-south-2.on.aws": [],
+  "*.airflow.eu-west-1.on.aws": [],
+  "*.airflow.eu-west-2.on.aws": [],
+  "*.airflow.eu-west-3.on.aws": [],
+  "*.airflow.il-central-1.on.aws": [],
+  "*.airflow.me-central-1.on.aws": [],
+  "*.airflow.me-south-1.on.aws": [],
+  "*.airflow.sa-east-1.on.aws": [],
+  "*.airflow.us-east-1.on.aws": [],
+  "*.airflow.us-east-2.on.aws": [],
+  "*.airflow.us-west-1.on.aws": [],
+  "*.airflow.us-west-2.on.aws": [],
+  "*.cn-north-1.airflow.amazonaws.com.cn": [],
+  "*.cn-northwest-1.airflow.amazonaws.com.cn": [],
+  "*.airflow.cn-north-1.on.amazonwebservices.com.cn": [],
+  "*.airflow.cn-northwest-1.on.amazonwebservices.com.cn": [],
+  "*.af-south-1.airflow.amazonaws.com": [],
+  "*.ap-east-1.airflow.amazonaws.com": [],
+  "*.ap-northeast-1.airflow.amazonaws.com": [],
+  "*.ap-northeast-2.airflow.amazonaws.com": [],
+  "*.ap-northeast-3.airflow.amazonaws.com": [],
+  "*.ap-south-1.airflow.amazonaws.com": [],
+  "*.ap-south-2.airflow.amazonaws.com": [],
+  "*.ap-southeast-1.airflow.amazonaws.com": [],
+  "*.ap-southeast-2.airflow.amazonaws.com": [],
+  "*.ap-southeast-3.airflow.amazonaws.com": [],
+  "*.ap-southeast-4.airflow.amazonaws.com": [],
+  "*.ap-southeast-5.airflow.amazonaws.com": [],
+  "*.ap-southeast-7.airflow.amazonaws.com": [],
+  "*.ca-central-1.airflow.amazonaws.com": [],
+  "*.ca-west-1.airflow.amazonaws.com": [],
+  "*.eu-central-1.airflow.amazonaws.com": [],
+  "*.eu-central-2.airflow.amazonaws.com": [],
+  "*.eu-north-1.airflow.amazonaws.com": [],
+  "*.eu-south-1.airflow.amazonaws.com": [],
+  "*.eu-south-2.airflow.amazonaws.com": [],
+  "*.eu-west-1.airflow.amazonaws.com": [],
+  "*.eu-west-2.airflow.amazonaws.com": [],
+  "*.eu-west-3.airflow.amazonaws.com": [],
+  "*.il-central-1.airflow.amazonaws.com": [],
+  "*.me-central-1.airflow.amazonaws.com": [],
+  "*.me-south-1.airflow.amazonaws.com": [],
+  "*.sa-east-1.airflow.amazonaws.com": [],
+  "*.us-east-1.airflow.amazonaws.com": [],
+  "*.us-east-2.airflow.amazonaws.com": [],
+  "*.us-west-1.airflow.amazonaws.com": [],
+  "*.us-west-2.airflow.amazonaws.com": [],
+  "*.rds.cn-north-1.amazonaws.com.cn": [],
+  "*.rds.cn-northwest-1.amazonaws.com.cn": [],
+  "*.af-south-1.rds.amazonaws.com": [],
+  "*.ap-east-1.rds.amazonaws.com": [],
+  "*.ap-east-2.rds.amazonaws.com": [],
+  "*.ap-northeast-1.rds.amazonaws.com": [],
+  "*.ap-northeast-2.rds.amazonaws.com": [],
+  "*.ap-northeast-3.rds.amazonaws.com": [],
+  "*.ap-south-1.rds.amazonaws.com": [],
+  "*.ap-south-2.rds.amazonaws.com": [],
+  "*.ap-southeast-1.rds.amazonaws.com": [],
+  "*.ap-southeast-2.rds.amazonaws.com": [],
+  "*.ap-southeast-3.rds.amazonaws.com": [],
+  "*.ap-southeast-4.rds.amazonaws.com": [],
+  "*.ap-southeast-5.rds.amazonaws.com": [],
+  "*.ap-southeast-6.rds.amazonaws.com": [],
+  "*.ap-southeast-7.rds.amazonaws.com": [],
+  "*.ca-central-1.rds.amazonaws.com": [],
+  "*.ca-west-1.rds.amazonaws.com": [],
+  "*.eu-central-1.rds.amazonaws.com": [],
+  "*.eu-central-2.rds.amazonaws.com": [],
+  "*.eu-west-1.rds.amazonaws.com": [],
+  "*.eu-west-2.rds.amazonaws.com": [],
+  "*.eu-west-3.rds.amazonaws.com": [],
+  "*.il-central-1.rds.amazonaws.com": [],
+  "*.me-central-1.rds.amazonaws.com": [],
+  "*.me-south-1.rds.amazonaws.com": [],
+  "*.mx-central-1.rds.amazonaws.com": [],
+  "*.sa-east-1.rds.amazonaws.com": [],
+  "*.us-east-1.rds.amazonaws.com": [],
+  "*.us-east-2.rds.amazonaws.com": [],
+  "*.us-gov-east-1.rds.amazonaws.com": [],
+  "*.us-gov-west-1.rds.amazonaws.com": [],
+  "*.us-northeast-1.rds.amazonaws.com": [],
+  "*.us-west-1.rds.amazonaws.com": [],
+  "*.us-west-2.rds.amazonaws.com": [],
+  "s3.dualstack.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-accesspoint.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-deprecated.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-object-lambda.cn-north-1.amazonaws.com.cn": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.cn-north-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3.dualstack.cn-northwest-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.cn-northwest-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3.cn-northwest-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-accesspoint.cn-northwest-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3-object-lambda.cn-northwest-1.amazonaws.com.cn": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.cn-northwest-1.amazonaws.com.cn": [
+    "static_paid"
+  ],
+  "s3.dualstack.af-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.af-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.af-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.af-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.af-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.af-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.af-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-east-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-northeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-northeast-1.amazonaws.com": [],
+  "s3-website.dualstack.ap-northeast-1.amazonaws.com": [],
+  "s3.ap-northeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-northeast-1.amazonaws.com": [],
+  "s3-object-lambda.ap-northeast-1.amazonaws.com": [],
+  "s3-website.ap-northeast-1.amazonaws.com": [],
+  "s3.dualstack.ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-northeast-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-northeast-3.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-south-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-southeast-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-southeast-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-southeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-southeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-southeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-southeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-southeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-southeast-3.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-southeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-southeast-4.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-southeast-4.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-southeast-4.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-southeast-4.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-southeast-4.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-southeast-4.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-southeast-4.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-deprecated.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ap-southeast-5.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ap-southeast-5.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.dualstack.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.dualstack.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ca-central-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.dualstack.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.dualstack.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.ca-west-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.ca-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-central-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-central-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-central-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.eu-central-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-central-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-central-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-central-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-central-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-north-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-north-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-north-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-north-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-north-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-north-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.eu-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.eu-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-south-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-south-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-deprecated.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-west-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-west-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.eu-west-3.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.il-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.il-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.il-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.il-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.il-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.il-central-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.il-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.me-central-1.amazonaws.com": [],
+  "s3-accesspoint.dualstack.me-central-1.amazonaws.com": [],
+  "s3-website.dualstack.me-central-1.amazonaws.com": [],
+  "s3.me-central-1.amazonaws.com": [],
+  "s3-accesspoint.me-central-1.amazonaws.com": [],
+  "s3-object-lambda.me-central-1.amazonaws.com": [],
+  "s3-website.me-central-1.amazonaws.com": [],
+  "s3.dualstack.me-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.me-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.me-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.me-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.me-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.me-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-northeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-northeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-northeast-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-ca-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-eu-central-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-eu-north-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-eu-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-eu-west-3.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-external-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips-us-gov-east-1.amazonaws.com": [],
+  "s3-fips-us-gov-west-1.amazonaws.com": [],
+  "mrap.accesspoint.s3-global.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-me-south-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-sa-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-us-gov-east-1.amazonaws.com": [],
+  "s3-us-gov-west-1.amazonaws.com": [],
+  "s3-us-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-us-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-ap-northeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-ap-southeast-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-ap-southeast-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-eu-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-sa-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-us-gov-west-1.amazonaws.com": [],
+  "s3-website-us-west-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website-us-west-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.sa-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.sa-east-1.amazonaws.com": [],
+  "s3-website.dualstack.sa-east-1.amazonaws.com": [],
+  "s3.sa-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.sa-east-1.amazonaws.com": [],
+  "s3-object-lambda.sa-east-1.amazonaws.com": [],
+  "s3-website.sa-east-1.amazonaws.com": [],
+  "s3.dualstack.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.dualstack.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.dualstack.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-deprecated.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.us-east-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.us-east-1.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.dualstack.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.dualstack.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.dualstack.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-website.dualstack.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-accesspoint-fips.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-deprecated.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-fips.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3-object-lambda.us-east-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "s3-website.us-east-2.amazonaws.com": [
+    "static_paid"
+  ],
+  "s3.dualstack.us-gov-east-1.amazonaws.com": [],
+  "s3-accesspoint.dualstack.us-gov-east-1.amazonaws.com": [],
+  "s3-accesspoint-fips.dualstack.us-gov-east-1.amazonaws.com": [],
+  "s3-fips.dualstack.us-gov-east-1.amazonaws.com": [],
+  "s3-website.dualstack.us-gov-east-1.amazonaws.com": [],
+  "s3.us-gov-east-1.amazonaws.com": [],
+  "s3-accesspoint.us-gov-east-1.amazonaws.com": [],
+  "s3-accesspoint-fips.us-gov-east-1.amazonaws.com": [],
+  "s3-fips.us-gov-east-1.amazonaws.com": [],
+  "s3-object-lambda.us-gov-east-1.amazonaws.com": [],
+  "s3-website.us-gov-east-1.amazonaws.com": [],
+  "s3.dualstack.us-gov-west-1.amazonaws.com": [],
+  "s3-accesspoint.dualstack.us-gov-west-1.amazonaws.com": [],
+  "s3-accesspoint-fips.dualstack.us-gov-west-1.amazonaws.com": [],
+  "s3-fips.dualstack.us-gov-west-1.amazonaws.com": [],
+  "s3-website.dualstack.us-gov-west-1.amazonaws.com": [],
+  "s3.us-gov-west-1.amazonaws.com": [],
+  "s3-accesspoint.us-gov-west-1.amazonaws.com": [],
+  "s3-accesspoint-fips.us-gov-west-1.amazonaws.com": [],
+  "s3-fips.us-gov-west-1.amazonaws.com": [],
+  "s3-object-lambda.us-gov-west-1.amazonaws.com": [],
+  "s3-website.us-gov-west-1.amazonaws.com": [],
+  "s3.dualstack.us-west-1.amazonaws.com": [],
+  "s3-accesspoint.dualstack.us-west-1.amazonaws.com": [],
+  "s3-accesspoint-fips.dualstack.us-west-1.amazonaws.com": [],
+  "s3-fips.dualstack.us-west-1.amazonaws.com": [],
+  "s3-website.dualstack.us-west-1.amazonaws.com": [],
+  "s3.us-west-1.amazonaws.com": [],
+  "s3-accesspoint.us-west-1.amazonaws.com": [],
+  "s3-accesspoint-fips.us-west-1.amazonaws.com": [],
+  "s3-fips.us-west-1.amazonaws.com": [],
+  "s3-object-lambda.us-west-1.amazonaws.com": [],
+  "s3-website.us-west-1.amazonaws.com": [],
+  "s3.dualstack.us-west-2.amazonaws.com": [],
+  "s3-accesspoint.dualstack.us-west-2.amazonaws.com": [],
+  "s3-accesspoint-fips.dualstack.us-west-2.amazonaws.com": [],
+  "s3-fips.dualstack.us-west-2.amazonaws.com": [],
+  "s3-website.dualstack.us-west-2.amazonaws.com": [],
+  "s3.us-west-2.amazonaws.com": [],
+  "s3-accesspoint.us-west-2.amazonaws.com": [],
+  "s3-accesspoint-fips.us-west-2.amazonaws.com": [],
+  "s3-deprecated.us-west-2.amazonaws.com": [],
+  "s3-fips.us-west-2.amazonaws.com": [],
+  "s3-object-lambda.us-west-2.amazonaws.com": [],
+  "s3-website.us-west-2.amazonaws.com": [],
+  "labeling.ap-northeast-1.sagemaker.aws": [],
+  "labeling.ap-northeast-2.sagemaker.aws": [],
+  "labeling.ap-south-1.sagemaker.aws": [],
+  "labeling.ap-southeast-1.sagemaker.aws": [],
+  "labeling.ap-southeast-2.sagemaker.aws": [],
+  "labeling.ca-central-1.sagemaker.aws": [],
+  "labeling.eu-central-1.sagemaker.aws": [],
+  "labeling.eu-west-1.sagemaker.aws": [],
+  "labeling.eu-west-2.sagemaker.aws": [],
+  "labeling.us-east-1.sagemaker.aws": [],
+  "labeling.us-east-2.sagemaker.aws": [],
+  "labeling.us-west-2.sagemaker.aws": [],
+  "notebook.af-south-1.sagemaker.aws": [],
+  "notebook.ap-east-1.sagemaker.aws": [],
+  "notebook.ap-northeast-1.sagemaker.aws": [],
+  "notebook.ap-northeast-2.sagemaker.aws": [],
+  "notebook.ap-northeast-3.sagemaker.aws": [],
+  "notebook.ap-south-1.sagemaker.aws": [],
+  "notebook.ap-south-2.sagemaker.aws": [],
+  "notebook.ap-southeast-1.sagemaker.aws": [],
+  "notebook.ap-southeast-2.sagemaker.aws": [],
+  "notebook.ap-southeast-3.sagemaker.aws": [],
+  "notebook.ap-southeast-4.sagemaker.aws": [],
+  "notebook.ca-central-1.sagemaker.aws": [],
+  "notebook-fips.ca-central-1.sagemaker.aws": [],
+  "notebook.ca-west-1.sagemaker.aws": [],
+  "notebook-fips.ca-west-1.sagemaker.aws": [],
+  "notebook.eu-central-1.sagemaker.aws": [],
+  "notebook.eu-central-2.sagemaker.aws": [],
+  "notebook.eu-north-1.sagemaker.aws": [],
+  "notebook.eu-south-1.sagemaker.aws": [],
+  "notebook.eu-south-2.sagemaker.aws": [],
+  "notebook.eu-west-1.sagemaker.aws": [],
+  "notebook.eu-west-2.sagemaker.aws": [],
+  "notebook.eu-west-3.sagemaker.aws": [],
+  "notebook.il-central-1.sagemaker.aws": [],
+  "notebook.me-central-1.sagemaker.aws": [],
+  "notebook.me-south-1.sagemaker.aws": [],
+  "notebook.sa-east-1.sagemaker.aws": [],
+  "notebook.us-east-1.sagemaker.aws": [],
+  "notebook-fips.us-east-1.sagemaker.aws": [],
+  "notebook.us-east-2.sagemaker.aws": [],
+  "notebook-fips.us-east-2.sagemaker.aws": [],
+  "notebook.us-gov-east-1.sagemaker.aws": [],
+  "notebook-fips.us-gov-east-1.sagemaker.aws": [],
+  "notebook.us-gov-west-1.sagemaker.aws": [],
+  "notebook-fips.us-gov-west-1.sagemaker.aws": [],
+  "notebook.us-west-1.sagemaker.aws": [],
+  "notebook-fips.us-west-1.sagemaker.aws": [],
+  "notebook.us-west-2.sagemaker.aws": [],
+  "notebook-fips.us-west-2.sagemaker.aws": [],
+  "notebook.cn-north-1.sagemaker.com.cn": [],
+  "notebook.cn-northwest-1.sagemaker.com.cn": [],
+  "studio.af-south-1.sagemaker.aws": [],
+  "studio.ap-east-1.sagemaker.aws": [],
+  "studio.ap-northeast-1.sagemaker.aws": [],
+  "studio.ap-northeast-2.sagemaker.aws": [],
+  "studio.ap-northeast-3.sagemaker.aws": [],
+  "studio.ap-south-1.sagemaker.aws": [],
+  "studio.ap-southeast-1.sagemaker.aws": [],
+  "studio.ap-southeast-2.sagemaker.aws": [],
+  "studio.ap-southeast-3.sagemaker.aws": [],
+  "studio.ca-central-1.sagemaker.aws": [],
+  "studio.eu-central-1.sagemaker.aws": [],
+  "studio.eu-central-2.sagemaker.aws": [],
+  "studio.eu-north-1.sagemaker.aws": [],
+  "studio.eu-south-1.sagemaker.aws": [],
+  "studio.eu-south-2.sagemaker.aws": [],
+  "studio.eu-west-1.sagemaker.aws": [],
+  "studio.eu-west-2.sagemaker.aws": [],
+  "studio.eu-west-3.sagemaker.aws": [],
+  "studio.il-central-1.sagemaker.aws": [],
+  "studio.me-central-1.sagemaker.aws": [],
+  "studio.me-south-1.sagemaker.aws": [],
+  "studio.sa-east-1.sagemaker.aws": [],
+  "studio.us-east-1.sagemaker.aws": [],
+  "studio.us-east-2.sagemaker.aws": [],
+  "studio.us-gov-east-1.sagemaker.aws": [],
+  "studio-fips.us-gov-east-1.sagemaker.aws": [],
+  "studio.us-gov-west-1.sagemaker.aws": [],
+  "studio-fips.us-gov-west-1.sagemaker.aws": [],
+  "studio.us-west-1.sagemaker.aws": [],
+  "studio.us-west-2.sagemaker.aws": [],
+  "studio.cn-north-1.sagemaker.com.cn": [],
+  "studio.cn-northwest-1.sagemaker.com.cn": [],
+  "*.experiments.sagemaker.aws": [],
+  "analytics-gateway.ap-northeast-1.amazonaws.com": [],
+  "analytics-gateway.ap-northeast-2.amazonaws.com": [],
+  "analytics-gateway.ap-south-1.amazonaws.com": [],
+  "analytics-gateway.ap-southeast-1.amazonaws.com": [],
+  "analytics-gateway.ap-southeast-2.amazonaws.com": [],
+  "analytics-gateway.eu-central-1.amazonaws.com": [],
+  "analytics-gateway.eu-west-1.amazonaws.com": [],
+  "analytics-gateway.us-east-1.amazonaws.com": [],
+  "analytics-gateway.us-east-2.amazonaws.com": [],
+  "analytics-gateway.us-west-2.amazonaws.com": [],
+  "amplifyapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.awsapprunner.com": [
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.aws-cloud9.af-south-1.amazonaws.com": [],
+  "vfs.cloud9.af-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.af-south-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-east-1.amazonaws.com": [],
+  "vfs.cloud9.ap-east-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ap-east-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-northeast-1.amazonaws.com": [],
+  "vfs.cloud9.ap-northeast-1.amazonaws.com": [],
+  "webview-assets.cloud9.ap-northeast-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-northeast-2.amazonaws.com": [],
+  "vfs.cloud9.ap-northeast-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ap-northeast-2.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-northeast-3.amazonaws.com": [],
+  "vfs.cloud9.ap-northeast-3.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ap-northeast-3.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-south-1.amazonaws.com": [],
+  "vfs.cloud9.ap-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ap-south-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-southeast-1.amazonaws.com": [],
+  "vfs.cloud9.ap-southeast-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ap-southeast-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ap-southeast-2.amazonaws.com": [],
+  "vfs.cloud9.ap-southeast-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ap-southeast-2.amazonaws.com": [],
+  "webview-assets.aws-cloud9.ca-central-1.amazonaws.com": [],
+  "vfs.cloud9.ca-central-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.ca-central-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.eu-central-1.amazonaws.com": [],
+  "vfs.cloud9.eu-central-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.eu-central-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.eu-north-1.amazonaws.com": [],
+  "vfs.cloud9.eu-north-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.eu-north-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.eu-south-1.amazonaws.com": [],
+  "vfs.cloud9.eu-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.eu-south-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.eu-west-1.amazonaws.com": [],
+  "vfs.cloud9.eu-west-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.eu-west-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.eu-west-2.amazonaws.com": [],
+  "vfs.cloud9.eu-west-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.eu-west-2.amazonaws.com": [],
+  "webview-assets.aws-cloud9.eu-west-3.amazonaws.com": [],
+  "vfs.cloud9.eu-west-3.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.eu-west-3.amazonaws.com": [],
+  "webview-assets.aws-cloud9.il-central-1.amazonaws.com": [],
+  "vfs.cloud9.il-central-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.aws-cloud9.me-south-1.amazonaws.com": [],
+  "vfs.cloud9.me-south-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.me-south-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.sa-east-1.amazonaws.com": [],
+  "vfs.cloud9.sa-east-1.amazonaws.com": [],
+  "webview-assets.cloud9.sa-east-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.us-east-1.amazonaws.com": [],
+  "vfs.cloud9.us-east-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.us-east-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.us-east-2.amazonaws.com": [],
+  "vfs.cloud9.us-east-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.us-east-2.amazonaws.com": [],
+  "webview-assets.aws-cloud9.us-west-1.amazonaws.com": [],
+  "vfs.cloud9.us-west-1.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.us-west-1.amazonaws.com": [],
+  "webview-assets.aws-cloud9.us-west-2.amazonaws.com": [],
+  "vfs.cloud9.us-west-2.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "webview-assets.cloud9.us-west-2.amazonaws.com": [],
+  "awsapps.com": [],
+  "cn-north-1.eb.amazonaws.com.cn": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "cn-northwest-1.eb.amazonaws.com.cn": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "af-south-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-east-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-northeast-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-northeast-2.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-northeast-3.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-south-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-southeast-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-southeast-2.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-southeast-3.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-southeast-5.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ap-southeast-7.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ca-central-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "eu-central-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "eu-north-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "eu-south-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "eu-south-2.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "eu-west-1.elasticbeanstalk.com": [],
+  "eu-west-2.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "eu-west-3.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "il-central-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "me-central-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "me-south-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "sa-east-1.elasticbeanstalk.com": [],
+  "us-east-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us-east-2.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us-gov-east-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us-gov-west-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us-west-1.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us-west-2.elasticbeanstalk.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "*.elb.amazonaws.com.cn": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "*.elb.amazonaws.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "awsglobalaccelerator.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.af-south-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-east-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-northeast-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-northeast-2.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-northeast-3.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-south-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-southeast-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-southeast-2.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ap-southeast-3.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.ca-central-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.eu-central-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.eu-north-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.eu-south-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.eu-west-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.eu-west-2.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.eu-west-3.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.me-south-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.sa-east-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.us-east-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.us-east-2.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.us-west-1.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "lambda-url.us-west-2.on.aws": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "*.private.repost.aws": [],
+  "transfer-webapp.af-south-1.on.aws": [],
+  "transfer-webapp.ap-east-1.on.aws": [],
+  "transfer-webapp.ap-northeast-1.on.aws": [],
+  "transfer-webapp.ap-northeast-2.on.aws": [],
+  "transfer-webapp.ap-northeast-3.on.aws": [],
+  "transfer-webapp.ap-south-1.on.aws": [],
+  "transfer-webapp.ap-south-2.on.aws": [],
+  "transfer-webapp.ap-southeast-1.on.aws": [],
+  "transfer-webapp.ap-southeast-2.on.aws": [],
+  "transfer-webapp.ap-southeast-3.on.aws": [],
+  "transfer-webapp.ap-southeast-4.on.aws": [],
+  "transfer-webapp.ap-southeast-5.on.aws": [],
+  "transfer-webapp.ap-southeast-7.on.aws": [],
+  "transfer-webapp.ca-central-1.on.aws": [],
+  "transfer-webapp.ca-west-1.on.aws": [],
+  "transfer-webapp.eu-central-1.on.aws": [],
+  "transfer-webapp.eu-central-2.on.aws": [],
+  "transfer-webapp.eu-north-1.on.aws": [],
+  "transfer-webapp.eu-south-1.on.aws": [],
+  "transfer-webapp.eu-south-2.on.aws": [],
+  "transfer-webapp.eu-west-1.on.aws": [],
+  "transfer-webapp.eu-west-2.on.aws": [],
+  "transfer-webapp.eu-west-3.on.aws": [],
+  "transfer-webapp.il-central-1.on.aws": [],
+  "transfer-webapp.me-central-1.on.aws": [],
+  "transfer-webapp.me-south-1.on.aws": [],
+  "transfer-webapp.mx-central-1.on.aws": [],
+  "transfer-webapp.sa-east-1.on.aws": [],
+  "transfer-webapp.us-east-1.on.aws": [],
+  "transfer-webapp.us-east-2.on.aws": [],
+  "transfer-webapp.us-gov-east-1.on.aws": [],
+  "transfer-webapp-fips.us-gov-east-1.on.aws": [],
+  "transfer-webapp.us-gov-west-1.on.aws": [],
+  "transfer-webapp-fips.us-gov-west-1.on.aws": [],
+  "transfer-webapp.us-west-1.on.aws": [],
+  "transfer-webapp.us-west-2.on.aws": [],
+  "transfer-webapp.cn-north-1.on.amazonwebservices.com.cn": [],
+  "transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn": [],
+  "eero.online": [
+    "dns_paid"
+  ],
+  "eero-stage.online": [],
+  "antagonist.cloud": [],
+  "apigee.io": [],
+  "panel.dev": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "siiites.com": [],
+  "int.apple": [],
+  "*.cloud.int.apple": [],
+  "*.r.cloud.int.apple": [],
+  "*.ap-north-1.r.cloud.int.apple": [],
+  "*.ap-south-1.r.cloud.int.apple": [],
+  "*.ap-south-2.r.cloud.int.apple": [],
+  "*.eu-central-1.r.cloud.int.apple": [],
+  "*.eu-north-1.r.cloud.int.apple": [],
+  "*.us-central-1.r.cloud.int.apple": [],
+  "*.us-central-2.r.cloud.int.apple": [],
+  "*.us-east-1.r.cloud.int.apple": [],
+  "*.us-east-2.r.cloud.int.apple": [],
+  "*.us-west-1.r.cloud.int.apple": [],
+  "*.us-west-2.r.cloud.int.apple": [],
+  "*.us-west-3.r.cloud.int.apple": [],
+  "appspacehosted.com": [
+    "static_paid"
+  ],
+  "appspaceusercontent.com": [
+    "static_paid"
+  ],
+  "appudo.net": [],
+  "appwrite.global": [
+    "serverless_js_free"
+  ],
+  "appwrite.network": [
+    "static_free"
+  ],
+  "*.appwrite.run": [],
+  "on-aptible.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "f5.si": [],
+  "arvanedge.ir": [],
+  "user.aseinet.ne.jp": [],
+  "gv.vc": [],
+  "d.gv.vc": [],
+  "user.party.eus": [],
+  "pimienta.org": [],
+  "poivron.org": [],
+  "potager.org": [],
+  "sweetpepper.org": [],
+  "myasustor.com": [
+    "dns_paid"
+  ],
+  "cdn.prod.atlassian-dev.net": [],
+  "myfritz.link": [],
+  "myfritz.net": [],
+  "*.awdev.ca": [],
+  "*.advisor.ws": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ecommerce-shop.pl": [
+    "static_paid"
+  ],
+  "b-data.io": [],
+  "balena-devices.com": [],
+  "base.ec": [
+    "static_free"
+  ],
+  "official.ec": [
+    "static_free"
+  ],
+  "buyshop.jp": [
+    "static_free"
+  ],
+  "fashionstore.jp": [
+    "static_free"
+  ],
+  "handcrafted.jp": [
+    "static_free"
+  ],
+  "kawaiishop.jp": [
+    "static_free"
+  ],
+  "supersale.jp": [
+    "static_free"
+  ],
+  "theshop.jp": [
+    "static_free"
+  ],
+  "shopselect.net": [
+    "static_free"
+  ],
+  "base.shop": [
+    "static_free"
+  ],
+  "beagleboard.io": [
+    "static_free"
+  ],
+  "bearblog.dev": [
+    "static_free"
+  ],
+  "*.beget.app": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "*.begetcdn.cloud": [],
+  "pages.gay": [
+    "static_free"
+  ],
+  "bnr.la": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "bitbucket.io": [],
+  "blackbaudcdn.net": [],
+  "of.je": [],
+  "square.site": [
+    "static_free"
+  ],
+  "bluebite.io": [],
+  "boomla.net": [
+    "static_paid"
+  ],
+  "boutir.com": [
+    "static_free"
+  ],
+  "boxfuse.io": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "square7.ch": [],
+  "bplaced.com": [],
+  "bplaced.de": [],
+  "square7.de": [],
+  "bplaced.net": [],
+  "square7.net": [],
+  "brave.app": [],
+  "*.s.brave.app": [],
+  "brave.dev": [],
+  "*.s.brave.dev": [],
+  "brave.io": [],
+  "*.s.brave.io": [],
+  "shop.brendly.ba": [
+    "static_free"
+  ],
+  "shop.brendly.hr": [
+    "static_free"
+  ],
+  "shop.brendly.rs": [
+    "static_free"
+  ],
+  "browsersafetymark.io": [],
+  "radio.am": [],
+  "radio.fm": [],
+  "cdn.bubble.io": [
+    "static_free"
+  ],
+  "bubbleapps.io": [
+    "static_free"
+  ],
+  "*.bwcloud-os-instance.de": [],
+  "uk0.bigv.io": [],
+  "dh.bytemark.co.uk": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "vm.bytemark.co.uk": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "cafjs.com": [],
+  "canva-apps.cn": [],
+  "my.canvasite.cn": [],
+  "canva-apps.com": [
+    "static_free"
+  ],
+  "canva-hosted-embed.com": [
+    "static_free"
+  ],
+  "canvacode.com": [
+    "static_free"
+  ],
+  "rice-labs.com": [],
+  "canva.run": [],
+  "my.canva.site": [
+    "static_free"
+  ],
+  "drr.ac": [],
+  "uwu.ai": [],
+  "carrd.co": [],
+  "crd.co": [],
+  "ju.mp": [],
+  "api.gov.uk": [],
+  "cdn77-storage.com": [],
+  "rsc.contentproxy9.cz": [],
+  "r.cdn77.net": [
+    "static_paid"
+  ],
+  "cdn77-ssl.net": [],
+  "c.cdn77.org": [
+    "static_paid"
+  ],
+  "rsc.cdn77.org": [
+    "static_paid"
+  ],
+  "ssl.origin.cdn77-secure.org": [],
+  "za.bz": [],
+  "br.com": [],
+  "cn.com": [],
+  "de.com": [
+    "dns_paid"
+  ],
+  "eu.com": [],
+  "jpn.com": [],
+  "mex.com": [],
+  "ru.com": [],
+  "sa.com": [],
+  "uk.com": [],
+  "us.com": [],
+  "za.com": [],
+  "com.de": [],
+  "gb.net": [],
+  "hu.net": [],
+  "jp.net": [],
+  "se.net": [],
+  "uk.net": [],
+  "ae.org": [],
+  "com.se": [],
+  "cx.ua": [
+    "dns_paid"
+  ],
+  "discourse.diy": [
+    "dns_free"
+  ],
+  "discourse.group": [],
+  "discourse.team": [],
+  "clerk.app": [],
+  "clerkstage.app": [],
+  "*.lcl.dev": [
+    "dns_free"
+  ],
+  "*.lclstage.dev": [
+    "dns_free"
+  ],
+  "*.stg.dev": [
+    "dns_free"
+  ],
+  "*.stgstage.dev": [],
+  "cleverapps.cc": [],
+  "*.services.clever-cloud.com": [
+    "static_paid"
+  ],
+  "cleverapps.io": [],
+  "cleverapps.tech": [],
+  "clickrising.net": [],
+  "cloudns.asia": [
+    "dns_free"
+  ],
+  "cloudns.be": [
+    "dns_free"
+  ],
+  "cloud-ip.biz": [],
+  "cloudns.biz": [
+    "dns_free"
+  ],
+  "cloud-ip.cc": [],
+  "cloudns.cc": [
+    "dns_free"
+  ],
+  "cloudns.ch": [],
+  "cloudns.cl": [
+    "dns_free"
+  ],
+  "cloudns.club": [],
+  "abrdns.com": [],
+  "dnsabr.com": [
+    "dns_free"
+  ],
+  "ip-ddns.com": [],
+  "cloudns.cx": [
+    "dns_free"
+  ],
+  "cloudns.eu": [
+    "dns_free"
+  ],
+  "cloudns.in": [
+    "dns_free"
+  ],
+  "cloudns.info": [
+    "dns_free"
+  ],
+  "ddns-ip.net": [],
+  "dns-cloud.net": [],
+  "dns-dynamic.net": [],
+  "cloudns.nz": [],
+  "cloudns.org": [
+    "dns_free"
+  ],
+  "ip-dynamic.org": [],
+  "cloudns.ph": [],
+  "cloudns.pro": [],
+  "cloudns.pw": [],
+  "cloudns.us": [],
+  "c66.me": [],
+  "cloud66.ws": [],
+  "jdevcloud.com": [],
+  "wpdevcloud.com": [
+    "static_paid"
+  ],
+  "cloudaccess.host": [
+    "static_paid"
+  ],
+  "freesite.host": [],
+  "cloudaccess.net": [
+    "static_paid"
+  ],
+  "cloudbeesusercontent.io": [],
+  "*.cloudera.site": [],
+  "cloudflare.app": [],
+  "cf-ipfs.com": [],
+  "cloudflare-ipfs.com": [
+    "static_free"
+  ],
+  "trycloudflare.com": [],
+  "pages.dev": [],
+  "r2.dev": [],
+  "workers.dev": [],
+  "cloudflare.net": [],
+  "cdn.cloudflare.net": [],
+  "cdn.cloudflareanycast.net": [],
+  "cdn.cloudflarecn.net": [],
+  "cdn.cloudflareglobal.net": [],
+  "cust.cloudscale.ch": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "objects.lpg.cloudscale.ch": [
+    "static_paid"
+  ],
+  "objects.rma.cloudscale.ch": [
+    "static_paid"
+  ],
+  "lpg.objectstorage.ch": [
+    "static_paid"
+  ],
+  "rma.objectstorage.ch": [
+    "static_paid"
+  ],
+  "wnext.app": [],
+  "cnpy.gdn": [],
+  "*.otap.co": [],
+  "co.ca": [],
+  "co.com": [
+    "dns_paid"
+  ],
+  "codeberg.page": [],
+  "csb.app": [],
+  "preview.csb.app": [],
+  "co.nl": [],
+  "co.no": [],
+  "*.devinapps.com": [],
+  "webhosting.be": [],
+  "prvw.eu": [
+    "static_paid"
+  ],
+  "hosting-cluster.nl": [],
+  "ctfcloud.net": [],
+  "convex.app": [],
+  "convex.cloud": [
+    "serverless_js_free"
+  ],
+  "eu-west-1.convex.cloud": [
+    "serverless_js_free"
+  ],
+  "us-east-1.convex.cloud": [
+    "serverless_js_free"
+  ],
+  "convex.site": [
+    "static_free"
+  ],
+  "eu-west-1.convex.site": [
+    "static_free"
+  ],
+  "us-east-1.convex.site": [
+    "static_free"
+  ],
+  "ac.ru": [],
+  "edu.ru": [],
+  "gov.ru": [],
+  "int.ru": [],
+  "mil.ru": [],
+  "corespeed.app": [],
+  "dyn.cosidns.de": [],
+  "dnsupdater.de": [],
+  "dynamisches-dns.de": [
+    "dns_free"
+  ],
+  "internet-dns.de": [],
+  "l-o-g-i-n.de": [],
+  "dynamic-dns.info": [
+    "dns_free"
+  ],
+  "feste-ip.net": [
+    "dns_free"
+  ],
+  "knx-server.net": [],
+  "static-access.net": [],
+  "craft.me": [
+    "static_free"
+  ],
+  "realm.cz": [],
+  "on.crisp.email": [],
+  "*.cryptonomic.net": [],
+  "cfolks.pl": [],
+  "cyon.link": [],
+  "cyon.site": [
+    "static_paid"
+  ],
+  "biz.dk": [],
+  "co.dk": [],
+  "firm.dk": [],
+  "reg.dk": [],
+  "store.dk": [
+    "dns_paid"
+  ],
+  "dyndns.dappnode.io": [
+    "dns_free"
+  ],
+  "builtwithdark.com": [],
+  "darklang.io": [],
+  "demo.datadetect.com": [],
+  "instance.datadetect.com": [],
+  "edgestack.me": [],
+  "dattolocal.com": [],
+  "dattorelay.com": [],
+  "dattoweb.com": [],
+  "mydatto.com": [],
+  "dattolocal.net": [],
+  "mydatto.net": [],
+  "ddnss.de": [],
+  "dyn.ddnss.de": [],
+  "dyndns.ddnss.de": [],
+  "dyn-ip24.de": [
+    "dns_free"
+  ],
+  "dyndns1.de": [],
+  "home-webserver.de": [],
+  "dyn.home-webserver.de": [],
+  "myhome-server.de": [],
+  "ddnss.org": [],
+  "debian.net": [],
+  "definima.io": [],
+  "definima.net": [],
+  "deno.dev": [],
+  "deno-staging.dev": [],
+  "deno.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "sandbox.deno.net": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "dedyn.io": [],
+  "deta.app": [
+    "serverless_js_free"
+  ],
+  "deta.dev": [],
+  "deuxfleurs.eu": [],
+  "deuxfleurs.page": [],
+  "*.at.ply.gg": [
+    "dns_free"
+  ],
+  "d6.ply.gg": [
+    "dns_free"
+  ],
+  "joinmc.link": [
+    "dns_free"
+  ],
+  "playit.plus": [
+    "dns_free"
+  ],
+  "*.at.playit.plus": [
+    "dns_free"
+  ],
+  "with.playit.plus": [
+    "dns_free"
+  ],
+  "icp0.io": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.raw.icp0.io": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "icp1.io": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.raw.icp1.io": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.icp.net": [],
+  "caffeine.site": [],
+  "caffeine.xyz": [],
+  "mybox.company": [],
+  "intouch.email": [],
+  "mybox.me": [],
+  "mybox.page": [],
+  "dfirma.pl": [],
+  "dkonto.pl": [],
+  "you2.pl": [],
+  "ondigitalocean.app": [],
+  "*.digitaloceanspaces.com": [
+    "static_paid"
+  ],
+  "qzz.io": [],
+  "us.kg": [],
+  "xx.kg": [],
+  "dpdns.org": [],
+  "discordsays.com": [],
+  "discordsez.com": [],
+  "jozi.biz": [
+    "dns_paid"
+  ],
+  "ccwu.cc": [],
+  "cc.cd": [],
+  "us.ci": [],
+  "de5.net": [
+    "dns_free"
+  ],
+  "dnshome.de": [
+    "dns_free"
+  ],
+  "online.th": [],
+  "shop.th": [],
+  "co.scot": [
+    "dns_paid"
+  ],
+  "me.scot": [
+    "dns_paid"
+  ],
+  "org.scot": [
+    "dns_paid"
+  ],
+  "drayddns.com": [
+    "dns_paid"
+  ],
+  "shoparena.pl": [
+    "static_paid"
+  ],
+  "dreamhosters.com": [],
+  "durumis.com": [],
+  "duckdns.org": [],
+  "dy.fi": [],
+  "tunk.org": [],
+  "dyndns.biz": [],
+  "for-better.biz": [],
+  "for-more.biz": [],
+  "for-some.biz": [],
+  "for-the.biz": [],
+  "selfip.biz": [],
+  "webhop.biz": [],
+  "ftpaccess.cc": [],
+  "game-server.cc": [],
+  "myphotos.cc": [],
+  "scrapping.cc": [],
+  "blogdns.com": [],
+  "cechire.com": [],
+  "dnsalias.com": [],
+  "dnsdojo.com": [],
+  "doesntexist.com": [],
+  "dontexist.com": [],
+  "doomdns.com": [],
+  "dyn-o-saur.com": [],
+  "dynalias.com": [],
+  "dyndns-at-home.com": [],
+  "dyndns-at-work.com": [],
+  "dyndns-blog.com": [],
+  "dyndns-free.com": [],
+  "dyndns-home.com": [],
+  "dyndns-ip.com": [],
+  "dyndns-mail.com": [],
+  "dyndns-office.com": [],
+  "dyndns-pics.com": [],
+  "dyndns-remote.com": [],
+  "dyndns-server.com": [],
+  "dyndns-web.com": [],
+  "dyndns-wiki.com": [],
+  "dyndns-work.com": [],
+  "est-a-la-maison.com": [],
+  "est-a-la-masion.com": [],
+  "est-le-patron.com": [],
+  "est-mon-blogueur.com": [],
+  "from-ak.com": [],
+  "from-al.com": [],
+  "from-ar.com": [],
+  "from-ca.com": [],
+  "from-ct.com": [],
+  "from-dc.com": [],
+  "from-de.com": [],
+  "from-fl.com": [],
+  "from-ga.com": [],
+  "from-hi.com": [],
+  "from-ia.com": [],
+  "from-id.com": [],
+  "from-il.com": [],
+  "from-in.com": [],
+  "from-ks.com": [],
+  "from-ky.com": [],
+  "from-ma.com": [],
+  "from-md.com": [],
+  "from-mi.com": [],
+  "from-mn.com": [],
+  "from-mo.com": [],
+  "from-ms.com": [],
+  "from-mt.com": [],
+  "from-nc.com": [],
+  "from-nd.com": [],
+  "from-ne.com": [],
+  "from-nh.com": [],
+  "from-nj.com": [],
+  "from-nm.com": [],
+  "from-nv.com": [],
+  "from-oh.com": [],
+  "from-ok.com": [],
+  "from-or.com": [],
+  "from-pa.com": [],
+  "from-pr.com": [],
+  "from-ri.com": [],
+  "from-sc.com": [],
+  "from-sd.com": [],
+  "from-tn.com": [],
+  "from-tx.com": [],
+  "from-ut.com": [],
+  "from-va.com": [],
+  "from-vt.com": [],
+  "from-wa.com": [],
+  "from-wi.com": [],
+  "from-wv.com": [],
+  "from-wy.com": [],
+  "getmyip.com": [],
+  "gotdns.com": [],
+  "hobby-site.com": [],
+  "homelinux.com": [],
+  "homeunix.com": [],
+  "iamallama.com": [],
+  "is-a-anarchist.com": [],
+  "is-a-blogger.com": [],
+  "is-a-bookkeeper.com": [],
+  "is-a-bulls-fan.com": [],
+  "is-a-caterer.com": [],
+  "is-a-chef.com": [],
+  "is-a-conservative.com": [],
+  "is-a-cpa.com": [],
+  "is-a-cubicle-slave.com": [],
+  "is-a-democrat.com": [],
+  "is-a-designer.com": [],
+  "is-a-doctor.com": [],
+  "is-a-financialadvisor.com": [],
+  "is-a-geek.com": [],
+  "is-a-green.com": [],
+  "is-a-guru.com": [],
+  "is-a-hard-worker.com": [],
+  "is-a-hunter.com": [],
+  "is-a-landscaper.com": [],
+  "is-a-lawyer.com": [],
+  "is-a-liberal.com": [],
+  "is-a-libertarian.com": [],
+  "is-a-llama.com": [],
+  "is-a-musician.com": [],
+  "is-a-nascarfan.com": [],
+  "is-a-nurse.com": [],
+  "is-a-painter.com": [],
+  "is-a-personaltrainer.com": [],
+  "is-a-photographer.com": [],
+  "is-a-player.com": [],
+  "is-a-republican.com": [],
+  "is-a-rockstar.com": [],
+  "is-a-socialist.com": [],
+  "is-a-student.com": [],
+  "is-a-teacher.com": [],
+  "is-a-techie.com": [],
+  "is-a-therapist.com": [],
+  "is-an-accountant.com": [],
+  "is-an-actor.com": [],
+  "is-an-actress.com": [],
+  "is-an-anarchist.com": [],
+  "is-an-artist.com": [],
+  "is-an-engineer.com": [],
+  "is-an-entertainer.com": [],
+  "is-certified.com": [],
+  "is-gone.com": [],
+  "is-into-anime.com": [],
+  "is-into-cars.com": [],
+  "is-into-cartoons.com": [],
+  "is-into-games.com": [],
+  "is-leet.com": [],
+  "is-not-certified.com": [],
+  "is-slick.com": [],
+  "is-uberleet.com": [],
+  "is-with-theband.com": [],
+  "isa-geek.com": [],
+  "isa-hockeynut.com": [],
+  "issmarterthanyou.com": [],
+  "likes-pie.com": [],
+  "likescandy.com": [],
+  "neat-url.com": [
+    "dns_paid"
+  ],
+  "saves-the-whales.com": [],
+  "selfip.com": [],
+  "sells-for-less.com": [],
+  "sells-for-u.com": [],
+  "servebbs.com": [],
+  "simple-url.com": [],
+  "space-to-rent.com": [],
+  "teaches-yoga.com": [],
+  "writesthisblog.com": [],
+  "ath.cx": [],
+  "fuettertdasnetz.de": [],
+  "isteingeek.de": [],
+  "istmein.de": [],
+  "lebtimnetz.de": [],
+  "leitungsen.de": [],
+  "traeumtgerade.de": [],
+  "barrel-of-knowledge.info": [],
+  "barrell-of-knowledge.info": [],
+  "dyndns.info": [],
+  "for-our.info": [],
+  "groks-the.info": [],
+  "groks-this.info": [],
+  "here-for-more.info": [],
+  "knowsitall.info": [],
+  "selfip.info": [],
+  "webhop.info": [],
+  "forgot.her.name": [
+    "dns_paid"
+  ],
+  "forgot.his.name": [
+    "dns_paid"
+  ],
+  "at-band-camp.net": [],
+  "blogdns.net": [],
+  "broke-it.net": [],
+  "buyshouses.net": [],
+  "dnsalias.net": [],
+  "dnsdojo.net": [],
+  "does-it.net": [],
+  "dontexist.net": [],
+  "dynalias.net": [],
+  "dynathome.net": [],
+  "endofinternet.net": [],
+  "from-az.net": [],
+  "from-co.net": [],
+  "from-la.net": [],
+  "from-ny.net": [],
+  "gets-it.net": [],
+  "ham-radio-op.net": [],
+  "homeftp.net": [],
+  "homeip.net": [],
+  "homelinux.net": [],
+  "homeunix.net": [],
+  "in-the-band.net": [],
+  "is-a-chef.net": [],
+  "is-a-geek.net": [],
+  "isa-geek.net": [],
+  "kicks-ass.net": [],
+  "office-on-the.net": [],
+  "podzone.net": [],
+  "scrapper-site.net": [],
+  "selfip.net": [],
+  "sells-it.net": [],
+  "servebbs.net": [],
+  "serveftp.net": [],
+  "thruhere.net": [],
+  "webhop.net": [],
+  "merseine.nu": [],
+  "mine.nu": [],
+  "shacknet.nu": [],
+  "blogdns.org": [],
+  "blogsite.org": [],
+  "boldlygoingnowhere.org": [],
+  "dnsalias.org": [],
+  "dnsdojo.org": [],
+  "doesntexist.org": [],
+  "dontexist.org": [],
+  "doomdns.org": [],
+  "dvrdns.org": [],
+  "dynalias.org": [],
+  "dyndns.org": [],
+  "go.dyndns.org": [],
+  "home.dyndns.org": [],
+  "endofinternet.org": [],
+  "endoftheinternet.org": [],
+  "from-me.org": [],
+  "game-host.org": [],
+  "gotdns.org": [],
+  "hobby-site.org": [],
+  "homedns.org": [],
+  "homeftp.org": [],
+  "homelinux.org": [],
+  "homeunix.org": [],
+  "is-a-bruinsfan.org": [],
+  "is-a-candidate.org": [],
+  "is-a-celticsfan.org": [],
+  "is-a-chef.org": [],
+  "is-a-geek.org": [],
+  "is-a-knight.org": [],
+  "is-a-linux-user.org": [],
+  "is-a-patsfan.org": [],
+  "is-a-soxfan.org": [],
+  "is-found.org": [],
+  "is-lost.org": [],
+  "is-saved.org": [],
+  "is-very-bad.org": [],
+  "is-very-evil.org": [],
+  "is-very-good.org": [],
+  "is-very-nice.org": [],
+  "is-very-sweet.org": [],
+  "isa-geek.org": [],
+  "kicks-ass.org": [],
+  "misconfused.org": [],
+  "podzone.org": [],
+  "readmyblog.org": [],
+  "selfip.org": [],
+  "sellsyourhome.org": [],
+  "servebbs.org": [],
+  "serveftp.org": [],
+  "servegame.org": [],
+  "stuff-4-sale.org": [],
+  "webhop.org": [],
+  "better-than.tv": [],
+  "dyndns.tv": [],
+  "on-the-web.tv": [],
+  "worse-than.tv": [],
+  "is-by.us": [],
+  "land-4-sale.us": [],
+  "stuff-4-sale.us": [],
+  "dyndns.ws": [],
+  "mypets.ws": [],
+  "1cooldns.com": [],
+  "bumbleshrimp.com": [],
+  "ddnsfree.com": [],
+  "ddnsgeek.com": [],
+  "ddnsguru.com": [],
+  "dynuddns.com": [],
+  "dynuhosting.com": [
+    "dns_free"
+  ],
+  "giize.com": [],
+  "gleeze.com": [],
+  "kozow.com": [],
+  "loseyourip.com": [],
+  "ooguy.com": [],
+  "pivohosting.com": [],
+  "theworkpc.com": [],
+  "wiredbladehosting.com": [],
+  "casacam.net": [],
+  "dynu.net": [],
+  "dynuddns.net": [],
+  "mysynology.net": [],
+  "opik.net": [],
+  "spryt.net": [],
+  "accesscam.org": [],
+  "camdvr.org": [],
+  "freeddns.org": [],
+  "mywire.org": [],
+  "roxa.org": [],
+  "webredirect.org": [],
+  "myddns.rocks": [],
+  "dynv6.net": [],
+  "e4.cz": [],
+  "easypanel.app": [],
+  "easypanel.host": [],
+  "*.ewp.live": [],
+  "twmail.cc": [
+    "static_paid"
+  ],
+  "twmail.net": [
+    "static_paid"
+  ],
+  "twmail.org": [
+    "static_paid"
+  ],
+  "mymailer.com.tw": [
+    "static_paid"
+  ],
+  "url.tw": [
+    "static_paid"
+  ],
+  "at.emf.camp": [
+    "dns_paid"
+  ],
+  "rt.ht": [
+    "static_free"
+  ],
+  "elementor.cloud": [],
+  "elementor.cool": [
+    "static_paid"
+  ],
+  "emergent.cloud": [],
+  "preview.emergentagent.com": [],
+  "emergent.host": [],
+  "mytuleap.com": [],
+  "tuleap-partners.com": [],
+  "encr.app": [],
+  "frontend.encr.app": [
+    "static_free"
+  ],
+  "encoreapi.com": [],
+  "lp.dev": [],
+  "api.lp.dev": [],
+  "objects.lp.dev": [],
+  "eu.encoway.cloud": [],
+  "eu.org": [],
+  "al.eu.org": [],
+  "asso.eu.org": [],
+  "at.eu.org": [],
+  "au.eu.org": [],
+  "be.eu.org": [],
+  "bg.eu.org": [],
+  "ca.eu.org": [],
+  "cd.eu.org": [],
+  "ch.eu.org": [],
+  "cn.eu.org": [],
+  "cy.eu.org": [],
+  "cz.eu.org": [],
+  "de.eu.org": [],
+  "dk.eu.org": [],
+  "edu.eu.org": [],
+  "ee.eu.org": [],
+  "es.eu.org": [],
+  "fi.eu.org": [],
+  "fr.eu.org": [],
+  "gr.eu.org": [],
+  "hr.eu.org": [],
+  "hu.eu.org": [],
+  "ie.eu.org": [],
+  "il.eu.org": [],
+  "in.eu.org": [],
+  "int.eu.org": [],
+  "is.eu.org": [],
+  "it.eu.org": [],
+  "jp.eu.org": [],
+  "kr.eu.org": [],
+  "lt.eu.org": [],
+  "lu.eu.org": [],
+  "lv.eu.org": [],
+  "me.eu.org": [],
+  "mk.eu.org": [],
+  "mt.eu.org": [],
+  "my.eu.org": [],
+  "net.eu.org": [
+    "dns_free"
+  ],
+  "ng.eu.org": [],
+  "nl.eu.org": [
+    "dns_free"
+  ],
+  "no.eu.org": [],
+  "nz.eu.org": [],
+  "pl.eu.org": [],
+  "pt.eu.org": [],
+  "ro.eu.org": [],
+  "ru.eu.org": [],
+  "se.eu.org": [],
+  "si.eu.org": [],
+  "sk.eu.org": [],
+  "tr.eu.org": [],
+  "uk.eu.org": [],
+  "us.eu.org": [],
+  "eurodir.ru": [],
+  "eu-1.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "eu-2.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "eu-3.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "eu-4.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "us-1.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "us-2.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "us-3.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "us-4.evennode.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "relay.evervault.app": [],
+  "relay.evervault.dev": [],
+  "exe.xyz": [],
+  "expo.app": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "on.expo.app": [],
+  "staging.expo.app": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "on.staging.expo.app": [],
+  "onfabrica.com": [],
+  "ru.net": [],
+  "adygeya.ru": [],
+  "bashkiria.ru": [],
+  "bir.ru": [],
+  "cbg.ru": [],
+  "com.ru": [],
+  "dagestan.ru": [],
+  "grozny.ru": [],
+  "kalmykia.ru": [],
+  "kustanai.ru": [],
+  "marine.ru": [],
+  "mordovia.ru": [],
+  "msk.ru": [],
+  "mytis.ru": [],
+  "nalchik.ru": [],
+  "nov.ru": [],
+  "pyatigorsk.ru": [],
+  "spb.ru": [],
+  "vladikavkaz.ru": [],
+  "vladimir.ru": [],
+  "abkhazia.su": [],
+  "adygeya.su": [],
+  "aktyubinsk.su": [],
+  "arkhangelsk.su": [],
+  "armenia.su": [],
+  "ashgabad.su": [],
+  "azerbaijan.su": [],
+  "balashov.su": [],
+  "bashkiria.su": [],
+  "bryansk.su": [],
+  "bukhara.su": [],
+  "chimkent.su": [],
+  "dagestan.su": [],
+  "east-kazakhstan.su": [],
+  "exnet.su": [],
+  "georgia.su": [],
+  "grozny.su": [],
+  "ivanovo.su": [],
+  "jambyl.su": [],
+  "kalmykia.su": [],
+  "kaluga.su": [],
+  "karacol.su": [],
+  "karaganda.su": [],
+  "karelia.su": [],
+  "khakassia.su": [],
+  "krasnodar.su": [],
+  "kurgan.su": [],
+  "kustanai.su": [],
+  "lenug.su": [],
+  "mangyshlak.su": [],
+  "mordovia.su": [],
+  "msk.su": [],
+  "murmansk.su": [],
+  "nalchik.su": [],
+  "navoi.su": [],
+  "north-kazakhstan.su": [],
+  "nov.su": [],
+  "obninsk.su": [],
+  "penza.su": [],
+  "pokrovsk.su": [],
+  "sochi.su": [],
+  "spb.su": [],
+  "tashkent.su": [],
+  "termez.su": [],
+  "togliatti.su": [],
+  "troitsk.su": [],
+  "tselinograd.su": [],
+  "tula.su": [],
+  "tuva.su": [],
+  "vladikavkaz.su": [],
+  "vladimir.su": [],
+  "vologda.su": [],
+  "channelsdvr.net": [],
+  "u.channelsdvr.net": [],
+  "edgecompute.app": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "fastly-edge.com": [
+    "static_paid"
+  ],
+  "fastly-terrarium.com": [],
+  "freetls.fastly.net": [],
+  "map.fastly.net": [
+    "static_paid"
+  ],
+  "a.prod.fastly.net": [],
+  "global.prod.fastly.net": [],
+  "a.ssl.fastly.net": [],
+  "b.ssl.fastly.net": [],
+  "global.ssl.fastly.net": [],
+  "fastlylb.net": [
+    "static_paid"
+  ],
+  "map.fastlylb.net": [
+    "static_paid"
+  ],
+  "*.user.fm": [
+    "static_paid"
+  ],
+  "fastvps-server.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "fastvps.host": [],
+  "myfast.host": [],
+  "fastvps.site": [],
+  "myfast.space": [],
+  "conn.uk": [],
+  "copro.uk": [],
+  "hosp.uk": [],
+  "fedorainfracloud.org": [],
+  "fedorapeople.org": [
+    "static_free"
+  ],
+  "cloud.fedoraproject.org": [],
+  "app.os.fedoraproject.org": [],
+  "app.os.stg.fedoraproject.org": [],
+  "mydobiss.com": [],
+  "fh-muenster.io": [],
+  "payload.dev": [],
+  "figma.site": [
+    "static_free"
+  ],
+  "figma-gov.site": [],
+  "preview.site": [
+    "static_free"
+  ],
+  "filegear.me": [],
+  "firebaseapp.com": [
+    "static_free"
+  ],
+  "fldrv.com": [],
+  "on-fleek.app": [],
+  "flutterflow.app": [],
+  "sprites.app": [],
+  "fly.dev": [
+    "containers_free"
+  ],
+  "e2b.app": [],
+  "framer.ai": [
+    "static_free"
+  ],
+  "framer.app": [
+    "static_free"
+  ],
+  "framercanvas.com": [],
+  "framer.media": [],
+  "framer.photos": [
+    "static_free"
+  ],
+  "framer.website": [
+    "static_free"
+  ],
+  "framer.wiki": [
+    "static_free"
+  ],
+  "*.0e.vc": [],
+  "freebox-os.com": [],
+  "freeboxos.com": [],
+  "fbx-os.fr": [],
+  "fbxos.fr": [],
+  "freebox-os.fr": [],
+  "freeboxos.fr": [],
+  "freedesktop.org": [],
+  "freemyip.com": [
+    "dns_free"
+  ],
+  "*.frusky.de": [
+    "dns_free"
+  ],
+  "wien.funkfeuer.at": [],
+  "daemon.asia": [
+    "dns_free"
+  ],
+  "dix.asia": [
+    "dns_free"
+  ],
+  "mydns.bz": [
+    "dns_free"
+  ],
+  "0am.jp": [
+    "dns_free"
+  ],
+  "0g0.jp": [
+    "dns_free"
+  ],
+  "0j0.jp": [
+    "dns_free"
+  ],
+  "0t0.jp": [
+    "dns_free"
+  ],
+  "mydns.jp": [],
+  "pgw.jp": [
+    "dns_free"
+  ],
+  "wjg.jp": [
+    "dns_free"
+  ],
+  "keyword-on.net": [
+    "dns_free"
+  ],
+  "live-on.net": [],
+  "server-on.net": [
+    "dns_free"
+  ],
+  "mydns.tw": [
+    "dns_free"
+  ],
+  "mydns.vc": [
+    "dns_free"
+  ],
+  "*.futurecms.at": [
+    "static_paid"
+  ],
+  "*.ex.futurecms.at": [
+    "static_paid"
+  ],
+  "*.in.futurecms.at": [
+    "static_paid"
+  ],
+  "futurehosting.at": [
+    "static_paid"
+  ],
+  "futuremailing.at": [
+    "static_paid"
+  ],
+  "*.ex.ortsinfo.at": [
+    "static_paid"
+  ],
+  "*.kunden.ortsinfo.at": [
+    "static_paid"
+  ],
+  "*.statics.cloud": [
+    "static_paid"
+  ],
+  "gadget.app": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "gadget.host": [],
+  "aliases121.com": [],
+  "campaign.gov.uk": [],
+  "service.gov.uk": [],
+  "independent-commission.uk": [],
+  "independent-inquest.uk": [],
+  "independent-inquiry.uk": [],
+  "independent-panel.uk": [],
+  "independent-review.uk": [],
+  "public-inquiry.uk": [],
+  "royal-commission.uk": [],
+  "gehirn.ne.jp": [],
+  "usercontent.jp": [],
+  "gentapps.com": [],
+  "gentlentapis.com": [],
+  "cdn-edges.net": [],
+  "gsj.bz": [],
+  "gitbook.io": [
+    "static_free"
+  ],
+  "github.app": [],
+  "githubusercontent.com": [],
+  "githubpreview.dev": [],
+  "github.io": [],
+  "gitlab.io": [],
+  "gitapp.si": [],
+  "gitpage.si": [],
+  "nog.community": [],
+  "co.ro": [],
+  "shop.ro": [],
+  "lolipop.io": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "angry.jp": [],
+  "babyblue.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "babymilk.jp": [],
+  "backdrop.jp": [],
+  "bambina.jp": [],
+  "bitter.jp": [],
+  "blush.jp": [],
+  "boo.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "boy.jp": [],
+  "boyfriend.jp": [],
+  "but.jp": [],
+  "candypop.jp": [],
+  "capoo.jp": [],
+  "catfood.jp": [],
+  "cheap.jp": [],
+  "chicappa.jp": [],
+  "chillout.jp": [],
+  "chips.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "chowder.jp": [],
+  "chu.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ciao.jp": [],
+  "cocotte.jp": [],
+  "coolblog.jp": [],
+  "cranky.jp": [],
+  "cutegirl.jp": [],
+  "daa.jp": [],
+  "deca.jp": [],
+  "deci.jp": [],
+  "digick.jp": [],
+  "egoism.jp": [],
+  "fakefur.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "fem.jp": [],
+  "flier.jp": [],
+  "floppy.jp": [],
+  "fool.jp": [],
+  "frenchkiss.jp": [],
+  "girlfriend.jp": [],
+  "girly.jp": [],
+  "gloomy.jp": [],
+  "gonna.jp": [],
+  "greater.jp": [],
+  "hacca.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "heavy.jp": [],
+  "her.jp": [],
+  "hiho.jp": [],
+  "hippy.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "holy.jp": [],
+  "hungry.jp": [],
+  "icurus.jp": [],
+  "itigo.jp": [],
+  "jellybean.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "kikirara.jp": [],
+  "kill.jp": [],
+  "kilo.jp": [],
+  "kuron.jp": [],
+  "littlestar.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "lolipopmc.jp": [],
+  "lolitapunk.jp": [],
+  "lomo.jp": [],
+  "lovepop.jp": [],
+  "lovesick.jp": [],
+  "main.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "mods.jp": [],
+  "mond.jp": [],
+  "mongolian.jp": [],
+  "moo.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "namaste.jp": [],
+  "nikita.jp": [],
+  "nobushi.jp": [],
+  "noor.jp": [],
+  "oops.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "parallel.jp": [],
+  "parasite.jp": [],
+  "pecori.jp": [],
+  "peewee.jp": [],
+  "penne.jp": [],
+  "pepper.jp": [],
+  "perma.jp": [],
+  "pigboat.jp": [],
+  "pinoko.jp": [],
+  "punyu.jp": [],
+  "pupu.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "pussycat.jp": [],
+  "pya.jp": [],
+  "raindrop.jp": [],
+  "readymade.jp": [],
+  "sadist.jp": [],
+  "schoolbus.jp": [],
+  "secret.jp": [],
+  "staba.jp": [],
+  "stripper.jp": [],
+  "sub.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "sunnyday.jp": [],
+  "thick.jp": [],
+  "tonkotsu.jp": [],
+  "under.jp": [],
+  "upper.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "velvet.jp": [],
+  "verse.jp": [],
+  "versus.jp": [],
+  "vivian.jp": [],
+  "watson.jp": [],
+  "weblike.jp": [],
+  "whitesnow.jp": [],
+  "zombie.jp": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "heteml.net": [],
+  "graphic.design": [],
+  "goip.de": [],
+  "*.hosted.app": [],
+  "*.run.app": [
+    "containers_free"
+  ],
+  "*.mtls.run.app": [],
+  "web.app": [
+    "static_free"
+  ],
+  "*.0emm.com": [],
+  "appspot.com": [],
+  "*.r.appspot.com": [],
+  "blogspot.com": [],
+  "codespot.com": [],
+  "googleapis.com": [
+    "static_free"
+  ],
+  "googlecode.com": [],
+  "pagespeedmobilizer.com": [],
+  "withgoogle.com": [],
+  "withyoutube.com": [],
+  "*.gateway.dev": [],
+  "cloud.goog": [],
+  "translate.goog": [],
+  "*.usercontent.goog": [],
+  "cloudfunctions.net": [
+    "serverless_js_free"
+  ],
+  "goupile.fr": [],
+  "pymnt.uk": [],
+  "cloudapps.digital": [],
+  "london.cloudapps.digital": [],
+  "gov.nl": [],
+  "grafana-dev.net": [],
+  "grayjayleagues.com": [
+    "static_paid"
+  ],
+  "grebedoc.dev": [],
+  "günstigbestellen.de": [
+    "static_paid"
+  ],
+  "günstigliefern.de": [],
+  "gv.uy": [],
+  "hackclub.app": [],
+  "häkkinen.fi": [],
+  "hashbang.sh": [],
+  "hasura.app": [],
+  "hasura-app.io": [],
+  "hatenablog.com": [],
+  "hatenadiary.com": [
+    "static_free"
+  ],
+  "hateblo.jp": [
+    "static_free"
+  ],
+  "hatenablog.jp": [
+    "static_free"
+  ],
+  "hatenadiary.jp": [
+    "static_free"
+  ],
+  "hatenadiary.org": [
+    "static_free"
+  ],
+  "pages.it.hs-heilbronn.de": [],
+  "pages-research.it.hs-heilbronn.de": [],
+  "heiyu.space": [],
+  "helioho.st": [],
+  "heliohost.us": [],
+  "hepforge.org": [],
+  "onhercules.app": [],
+  "hercules-app.com": [
+    "serverless_js_free"
+  ],
+  "hercules-dev.com": [],
+  "herokuapp.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "heyflow.page": [],
+  "heyflow.site": [],
+  "ravendb.cloud": [],
+  "ravendb.community": [],
+  "development.run": [],
+  "ravendb.run": [],
+  "hidns.co": [],
+  "hidns.vip": [],
+  "homesklep.pl": [
+    "static_paid"
+  ],
+  "*.kin.one": [],
+  "*.id.pub": [],
+  "*.kin.pub": [],
+  "hoplix.shop": [
+    "static_free"
+  ],
+  "orx.biz": [],
+  "biz.ng": [],
+  "co.biz.ng": [],
+  "dl.biz.ng": [],
+  "go.biz.ng": [],
+  "lg.biz.ng": [],
+  "on.biz.ng": [],
+  "col.ng": [],
+  "firm.ng": [],
+  "gen.ng": [],
+  "ltd.ng": [],
+  "ngo.ng": [],
+  "plc.ng": [],
+  "hostyhosting.io": [],
+  "hf.space": [],
+  "static.hf.space": [],
+  "hypernode.io": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "iobb.net": [],
+  "co.cz": [],
+  "*.moonscale.io": [],
+  "moonscale.net": [],
+  "gr.com": [],
+  "iki.fi": [],
+  "ibxos.it": [],
+  "iliadboxos.it": [],
+  "imagine.diy": [
+    "serverless_js_free"
+  ],
+  "imagine-proxy.work": [],
+  "smushcdn.com": [
+    "static_paid"
+  ],
+  "wphostedmail.com": [],
+  "wpmucdn.com": [
+    "static_paid"
+  ],
+  "tempurl.host": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "wpmudev.host": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "dyn-berlin.de": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-berlin.de": [],
+  "in-brb.de": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-butter.de": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-dsl.de": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-vpn.de": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-dsl.net": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-vpn.net": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-dsl.org": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "in-vpn.org": [
+    "static_paid",
+    "containers_paid",
+    "dns_paid"
+  ],
+  "oninferno.net": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "biz.at": [],
+  "info.at": [],
+  "info.cx": [],
+  "ac.leg.br": [],
+  "al.leg.br": [],
+  "am.leg.br": [],
+  "ap.leg.br": [],
+  "ba.leg.br": [],
+  "ce.leg.br": [],
+  "df.leg.br": [],
+  "es.leg.br": [],
+  "go.leg.br": [],
+  "ma.leg.br": [],
+  "mg.leg.br": [],
+  "ms.leg.br": [],
+  "mt.leg.br": [],
+  "pa.leg.br": [],
+  "pb.leg.br": [],
+  "pe.leg.br": [],
+  "pi.leg.br": [],
+  "pr.leg.br": [],
+  "rj.leg.br": [],
+  "rn.leg.br": [],
+  "ro.leg.br": [],
+  "rr.leg.br": [],
+  "rs.leg.br": [],
+  "sc.leg.br": [],
+  "se.leg.br": [],
+  "sp.leg.br": [],
+  "to.leg.br": [],
+  "pixolino.com": [],
+  "na4u.ru": [],
+  "botdash.app": [],
+  "botdash.dev": [],
+  "botdash.gg": [
+    "static_free"
+  ],
+  "botdash.net": [],
+  "botda.sh": [],
+  "botdash.xyz": [],
+  "apps-1and1.com": [],
+  "live-website.com": [
+    "static_paid"
+  ],
+  "webspace-host.com": [],
+  "apps-1and1.net": [],
+  "websitebuilder.online": [],
+  "app-ionos.space": [],
+  "iopsys.se": [],
+  "*.inbrowser.dev": [],
+  "*.dweb.link": [],
+  "*.inbrowser.link": [],
+  "ipifony.net": [],
+  "ir.md": [],
+  "is-a-good.dev": [],
+  "iservschule.de": [],
+  "mein-iserv.de": [],
+  "schuldock.de": [],
+  "schulplattform.de": [],
+  "schulserver.de": [],
+  "test-iserv.de": [],
+  "iserv.dev": [],
+  "iserv.host": [],
+  "ispmanager.name": [],
+  "mel.cloudlets.com.au": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "cloud.interhostsolutions.be": [],
+  "alp1.ae.flow.ch": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "appengine.flow.ch": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "es-1.axarnet.cloud": [],
+  "diadem.cloud": [],
+  "vip.jelastic.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jele.cloud": [],
+  "it1.eur.aruba.jenv-aruba.cloud": [],
+  "it1.jenv-aruba.cloud": [],
+  "keliweb.cloud": [],
+  "cs.keliweb.cloud": [],
+  "oxa.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "tn.oxa.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "uk.oxa.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "primetel.cloud": [],
+  "uk.primetel.cloud": [],
+  "ca.reclaim.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "uk.reclaim.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "us.reclaim.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ch.trendhosting.cloud": [],
+  "de.trendhosting.cloud": [],
+  "jele.club": [],
+  "dopaas.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "paas.hosted-by-previder.com": [],
+  "rag-cloud.hosteur.com": [],
+  "rag-cloud-ch.hosteur.com": [],
+  "jcloud.ik-server.com": [],
+  "jcloud-ver-jpc.ik-server.com": [],
+  "demo.jelastic.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "paas.massivegrid.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jed.wafaicloud.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ryd.wafaicloud.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "j.scaleforce.com.cy": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jelastic.dogado.eu": [],
+  "fi.cloudplatform.fi": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "demo.datacenter.fi": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "paas.datacenter.fi": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jele.host": [],
+  "mircloud.host": [],
+  "paas.beebyte.io": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "sekd1.beebyteapp.io": [],
+  "jele.io": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jc.neen.it": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jcloud.kz": [],
+  "cloudjiffy.net": [],
+  "fra1-de.cloudjiffy.net": [],
+  "west1-us.cloudjiffy.net": [],
+  "jls-sto1.elastx.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jls-sto2.elastx.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jls-sto3.elastx.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "fr-1.paas.massivegrid.net": [],
+  "lon-1.paas.massivegrid.net": [],
+  "lon-2.paas.massivegrid.net": [],
+  "ny-1.paas.massivegrid.net": [],
+  "ny-2.paas.massivegrid.net": [],
+  "sg-1.paas.massivegrid.net": [],
+  "jelastic.saveincloud.net": [],
+  "nordeste-idc.saveincloud.net": [],
+  "j.scaleforce.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "sdscloud.pl": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "unicloud.pl": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "mircloud.ru": [],
+  "enscaled.sg": [],
+  "jele.site": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "jelastic.team": [],
+  "orangecloud.tn": [],
+  "j.layershift.co.uk": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "phx.enscaled.us": [],
+  "mircloud.us": [],
+  "myjino.ru": [],
+  "*.hosting.myjino.ru": [],
+  "*.landing.myjino.ru": [],
+  "*.spectrum.myjino.ru": [],
+  "*.vps.myjino.ru": [],
+  "jote.cloud": [],
+  "jotelulu.cloud": [],
+  "eu1-plenit.com": [],
+  "la1-plenit.com": [],
+  "us1-plenit.com": [],
+  "webadorsite.com": [],
+  "jouwweb.site": [
+    "static_free"
+  ],
+  "js.org": [],
+  "kaas.gg": [
+    "containers_paid"
+  ],
+  "khplay.nl": [
+    "containers_paid"
+  ],
+  "kapsi.fi": [
+    "static_paid",
+    "dns_paid"
+  ],
+  "kdns.fr": [],
+  "ezproxy.kuleuven.be": [],
+  "kuleuven.cloud": [],
+  "keenetic.io": [],
+  "keenetic.link": [],
+  "keenetic.name": [],
+  "keenetic.pro": [],
+  "ae.kg": [],
+  "keymachine.de": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "kiloapps.ai": [],
+  "kiloapps.io": [],
+  "kinghost.net": [],
+  "uni5.net": [],
+  "knightpoint.systems": [],
+  "koobin.events": [
+    "static_paid"
+  ],
+  "webthings.io": [
+    "dns_free"
+  ],
+  "krellian.net": [],
+  "oya.to": [
+    "static_paid"
+  ],
+  "co.de": [
+    "dns_paid"
+  ],
+  "shiptoday.app": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "shiptoday.build": [],
+  "laravel.cloud": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "on-forge.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "on-vapor.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "git-repos.de": [],
+  "lcube-server.de": [],
+  "svn-repos.de": [],
+  "leadpages.co": [
+    "static_paid"
+  ],
+  "lpages.co": [
+    "static_paid"
+  ],
+  "lpusercontent.com": [
+    "static_paid"
+  ],
+  "leapcell.app": [],
+  "leapcell.dev": [],
+  "leapcell.online": [],
+  "liara.run": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "iran.liara.run": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "libp2p.direct": [],
+  "runcontainers.dev": [],
+  "co.business": [],
+  "co.education": [],
+  "co.events": [],
+  "co.financial": [],
+  "co.network": [],
+  "co.place": [],
+  "co.technology": [],
+  "linkyard-cloud.ch": [],
+  "linkyard.cloud": [],
+  "members.linode.com": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "*.nodebalancer.linode.com": [],
+  "*.linodeobjects.com": [
+    "static_paid"
+  ],
+  "ip.linodeusercontent.com": [
+    "static_paid",
+    "containers_paid"
+  ],
+  "we.bs": [],
+  "filegear-sg.me": [
+    "dns_free"
+  ],
+  "ggff.net": [],
+  "*.user.localcert.dev": [],
+  "localtonet.com": [
+    "dns_free"
+  ],
+  "*.localto.net": [],
+  "lodz.pl": [],
+  "pabianice.pl": [],
+  "plock.pl": [],
+  "sieradz.pl": [],
+  "skierniewice.pl": [],
+  "zgierz.pl": [],
+  "loginline.app": [],
+  "loginline.dev": [],
+  "loginline.io": [],
+  "loginline.services": [],
+  "loginline.site": [],
+  "lohmus.me": [],
+  "lovable.app": [],
+  "lovableproject.com": [],
+  "lovable.run": [],
+  "lovable.sh": [
+    "serverless_js_free"
+  ],
+  "krasnik.pl": [],
+  "leczna.pl": [],
+  "lubartow.pl": [],
+  "lublin.pl": [
+    "dns_paid"
+  ],
+  "poniatowa.pl": [],
+  "swidnik.pl": [],
+  "glug.org.uk": [],
+  "lug.org.uk": [],
+  "lugs.org.uk": [],
+  "barsy.bg": [
+    "dns_paid"
+  ],
+  "barsy.club": [],
+  "barsycenter.com": [
+    "dns_paid"
+  ],
+  "barsyonline.com": [],
+  "barsy.de": [
+    "dns_paid"
+  ],
+  "barsy.dev": [],
+  "barsy.eu": [
+    "dns_paid"
+  ],
+  "barsy.gr": [
+    "dns_paid"
+  ],
+  "barsy.in": [],
+  "barsy.info": [
+    "dns_paid"
+  ],
+  "barsy.io": [
+    "dns_paid"
+  ],
+  "barsy.me": [
+    "dns_paid"
+  ],
+  "barsy.menu": [
+    "dns_paid"
+  ],
+  "barsyonline.menu": [
+    "dns_paid"
+  ],
+  "barsy.mobi": [],
+  "barsy.net": [
+    "dns_paid"
+  ],
+  "barsy.online": [
+    "dns_paid"
+  ],
+  "barsy.org": [
+    "dns_paid"
+  ],
+  "barsy.pro": [
+    "dns_paid"
+  ],
+  "barsy.pub": [
+    "dns_paid"
+  ],
+  "barsy.ro": [
+    "dns_paid"
+  ],
+  "barsy.rs": [
+    "dns_paid"
+  ],
+  "barsy.shop": [
+    "dns_paid"
+  ],
+  "barsyonline.shop": [
+    "dns_paid"
+  ],
+  "barsy.site": [
+    "dns_paid"
+  ],
+  "barsy.store": [
+    "dns_paid"
+  ],
+  "barsy.support": [],
+  "barsy.uk": [
+    "dns_paid"
+  ],
+  "barsy.co.uk": [
+    "dns_paid"
+  ],
+  "barsyonline.co.uk": [
+    "dns_paid"
+  ],
+  "*.lutrausercontent.com": [],
+  "luyani.app": [],
+  "luyani.net": [],
+  "*.magentosite.cloud": [],
+  "magicpatterns.app": [],
+  "magicpatternsapp.com": [],
+  "hb.cldmail.ru": [],
+  "matlab.cloud": [],
+  "modelscape.com": [],
+  "mwcloudnonprod.com": [],
+  "polyspace.com": [],
+  "mayfirst.info": [
+    "static_paid"
+  ],
+  "mayfirst.org": [
+    "static_paid"
+  ],
+  "mcdir.me": [],
+  "mcdir.ru": [],
+  "vps.mcdir.ru": [],
+  "mcpre.ru": [],
+  "mediatech.by": [],
+  "mediatech.dev": [],
+  "hra.health": [
+    "static_paid"
+  ],
+  "medusajs.app": [],
+  "miniserver.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "memset.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "messerli.app": [],
+  "atmeta.com": [],
+  "apps.fbsbx.com": [],
+  "*.cloud.metacentrum.cz": [],
+  "custom.metacentrum.cz": [],
+  "flt.cloud.muni.cz": [],
+  "usr.cloud.muni.cz": [],
+  "meteorapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "eu.meteorapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "co.pl": [],
+  "*.azurecontainer.io": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "azure-api.net": [],
+  "azure-mobile.net": [],
+  "azureedge.net": [
+    "static_paid"
+  ],
+  "azurefd.net": [
+    "static_paid"
+  ],
+  "azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "1.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "2.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "3.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "4.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "5.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "6.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "7.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "centralus.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "eastasia.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "eastus2.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "westeurope.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "westus2.azurestaticapps.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "azurewebsites.net": [
+    "static_free",
+    "serverless_js_free"
+  ],
+  "cloudapp.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "trafficmanager.net": [
+    "dns_paid"
+  ],
+  "blob.core.usgovcloudapi.net": [
+    "static_paid"
+  ],
+  "file.core.usgovcloudapi.net": [],
+  "web.core.usgovcloudapi.net": [
+    "static_paid"
+  ],
+  "servicebus.usgovcloudapi.net": [],
+  "usgovcloudapp.net": [],
+  "usgovtrafficmanager.net": [
+    "dns_paid"
+  ],
+  "blob.core.windows.net": [
+    "static_paid"
+  ],
+  "file.core.windows.net": [],
+  "web.core.windows.net": [
+    "static_paid"
+  ],
+  "servicebus.windows.net": [],
+  "azure-api.us": [],
+  "azurewebsites.us": [],
+  "routingthecloud.com": [],
+  "sn.mynetname.net": [],
+  "routingthecloud.net": [],
+  "routingthecloud.org": [],
+  "same-app.com": [],
+  "same-preview.com": [],
+  "csx.cc": [],
+  "miren.app": [],
+  "miren.systems": [],
+  "mydbserver.com": [],
+  "webspaceconfig.de": [],
+  "mittwald.info": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "mittwaldserver.info": [],
+  "typo3server.info": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "project.space": [],
+  "mocha.app": [],
+  "mochausercontent.com": [],
+  "mocha-sandbox.dev": [],
+  "modx.dev": [],
+  "bmoattachments.org": [
+    "static_free"
+  ],
+  "net.ru": [],
+  "org.ru": [],
+  "pp.ru": [],
+  "my.be": [],
+  "hostedpi.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "caracal.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "customer.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "fentiger.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "lynx.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ocelot.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "oncilla.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "onza.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "sphinx.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "vs.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "x.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "yali.mythic-beasts.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "cust.retrosnub.co.uk": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ui.nabu.casa": [
+    "dns_paid"
+  ],
+  "needle.run": [
+    "static_free"
+  ],
+  "co.site": [
+    "static_paid"
+  ],
+  "cloud.nospamproxy.com": [],
+  "o365.cloud.nospamproxy.com": [],
+  "netlib.re": [
+    "dns_free"
+  ],
+  "netlify.app": [],
+  "4u.com": [],
+  "nfshost.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ipfs.nftstorage.link": [],
+  "ngo.us": [],
+  "ngrok.app": [
+    "dns_paid"
+  ],
+  "ngrok-free.app": [
+    "dns_free"
+  ],
+  "ngrok.dev": [],
+  "ngrok-free.dev": [
+    "dns_free"
+  ],
+  "ngrok.io": [],
+  "ap.ngrok.io": [
+    "dns_free"
+  ],
+  "au.ngrok.io": [
+    "dns_free"
+  ],
+  "eu.ngrok.io": [
+    "dns_free"
+  ],
+  "in.ngrok.io": [
+    "dns_free"
+  ],
+  "jp.ngrok.io": [
+    "dns_free"
+  ],
+  "sa.ngrok.io": [
+    "dns_free"
+  ],
+  "us.ngrok.io": [
+    "dns_free"
+  ],
+  "ngrok.pizza": [
+    "dns_paid"
+  ],
+  "ngrok.pro": [
+    "dns_paid"
+  ],
+  "torun.pl": [],
+  "nh-serv.co.uk": [],
+  "nimsite.uk": [],
+  "mmafan.biz": [],
+  "myftp.biz": [],
+  "no-ip.biz": [],
+  "no-ip.ca": [],
+  "fantasyleague.cc": [],
+  "gotdns.ch": [],
+  "3utilities.com": [],
+  "blogsyte.com": [],
+  "ciscofreak.com": [],
+  "damnserver.com": [],
+  "ddnsking.com": [],
+  "ditchyourip.com": [],
+  "dnsiskinky.com": [],
+  "dynns.com": [],
+  "geekgalaxy.com": [],
+  "health-carereform.com": [],
+  "homesecuritymac.com": [],
+  "homesecuritypc.com": [],
+  "myactivedirectory.com": [],
+  "mysecuritycamera.com": [],
+  "myvnc.com": [],
+  "net-freaks.com": [],
+  "onthewifi.com": [],
+  "point2this.com": [],
+  "quicksytes.com": [],
+  "securitytactics.com": [],
+  "servebeer.com": [],
+  "servecounterstrike.com": [],
+  "serveexchange.com": [],
+  "serveftp.com": [],
+  "servegame.com": [],
+  "servehalflife.com": [],
+  "servehttp.com": [],
+  "servehumour.com": [],
+  "serveirc.com": [],
+  "servemp3.com": [],
+  "servep2p.com": [],
+  "servepics.com": [],
+  "servequake.com": [],
+  "servesarcasm.com": [],
+  "stufftoread.com": [],
+  "unusualperson.com": [],
+  "workisboring.com": [],
+  "dvrcam.info": [],
+  "ilovecollege.info": [],
+  "no-ip.info": [
+    "dns_free"
+  ],
+  "brasilia.me": [],
+  "ddns.me": [],
+  "dnsfor.me": [],
+  "hopto.me": [],
+  "loginto.me": [],
+  "noip.me": [],
+  "webhop.me": [],
+  "bounceme.net": [],
+  "ddns.net": [],
+  "eating-organic.net": [],
+  "mydissent.net": [],
+  "myeffect.net": [],
+  "mymediapc.net": [],
+  "mypsx.net": [],
+  "mysecuritycamera.net": [],
+  "nhlfan.net": [],
+  "no-ip.net": [],
+  "pgafan.net": [],
+  "privatizehealthinsurance.net": [],
+  "redirectme.net": [],
+  "serveblog.net": [],
+  "serveminecraft.net": [],
+  "sytes.net": [],
+  "cable-modem.org": [],
+  "collegefan.org": [],
+  "couchpotatofries.org": [],
+  "hopto.org": [],
+  "mlbfan.org": [],
+  "myftp.org": [],
+  "mysecuritycamera.org": [],
+  "nflfan.org": [],
+  "no-ip.org": [],
+  "read-books.org": [],
+  "ufcfan.org": [],
+  "zapto.org": [],
+  "no-ip.co.uk": [],
+  "golffan.us": [],
+  "noip.us": [
+    "dns_free"
+  ],
+  "pointto.us": [],
+  "stage.nodeart.io": [],
+  "*.developer.app": [],
+  "noop.app": [],
+  "*.northflank.app": [
+    "containers_free"
+  ],
+  "*.build.run": [],
+  "*.code.run": [
+    "containers_free"
+  ],
+  "*.database.run": [],
+  "*.migration.run": [],
+  "noticeable.news": [
+    "static_paid"
+  ],
+  "notion.site": [
+    "static_free"
+  ],
+  "dnsking.ch": [],
+  "mypi.co": [],
+  "myiphost.com": [],
+  "forumz.info": [],
+  "soundcast.me": [],
+  "tcp4.me": [],
+  "dnsup.net": [],
+  "hicam.net": [],
+  "now-dns.net": [],
+  "ownip.net": [],
+  "vpndns.net": [],
+  "dynserv.org": [],
+  "now-dns.org": [
+    "dns_free"
+  ],
+  "x443.pw": [],
+  "ntdll.top": [],
+  "freeddns.us": [],
+  "nsupdate.info": [],
+  "nerdpol.ovh": [
+    "dns_free"
+  ],
+  "prvcy.page": [],
+  "observablehq.cloud": [],
+  "static.observableusercontent.com": [
+    "static_free"
+  ],
+  "omg.lol": [],
+  "cloudycluster.net": [],
+  "omniwe.site": [
+    "static_paid"
+  ],
+  "123webseite.at": [],
+  "123website.be": [],
+  "simplesite.com.br": [],
+  "123website.ch": [],
+  "simplesite.com": [
+    "static_paid"
+  ],
+  "123webseite.de": [],
+  "123hjemmeside.dk": [
+    "static_paid"
+  ],
+  "123miweb.es": [],
+  "123kotisivu.fi": [
+    "static_paid"
+  ],
+  "123siteweb.fr": [],
+  "simplesite.gr": [],
+  "123homepage.it": [
+    "static_paid"
+  ],
+  "123website.lu": [],
+  "123website.nl": [
+    "static_paid"
+  ],
+  "123hjemmeside.no": [
+    "static_paid"
+  ],
+  "service.one": [],
+  "website.one": [],
+  "simplesite.pl": [],
+  "123paginaweb.pt": [],
+  "123minsida.se": [
+    "static_paid"
+  ],
+  "onid.ca": [
+    "static_paid"
+  ],
+  "is-a-fullstack.dev": [],
+  "is-cool.dev": [],
+  "is-not-a.dev": [],
+  "localplayer.dev": [],
+  "is-local.org": [],
+  "opensocial.site": [],
+  "*.oaiusercontent.com": [],
+  "opencraft.hosting": [],
+  "16-b.it": [],
+  "32-b.it": [],
+  "64-b.it": [],
+  "orsites.com": [],
+  "operaunite.com": [],
+  "*.customer-oci.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.oci.customer-oci.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.ocp.customer-oci.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.ocs.customer-oci.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.oraclecloudapps.com": [
+    "static_paid"
+  ],
+  "*.oraclegovcloudapps.com": [],
+  "*.oraclegovcloudapps.uk": [],
+  "tech.orange": [],
+  "can.re": [],
+  "authgear-staging.com": [],
+  "authgearapps.com": [],
+  "outsystemscloud.com": [],
+  "*.hosting.ovh.net": [],
+  "*.webpaas.ovh.net": [],
+  "ownprovider.com": [
+    "dns_free"
+  ],
+  "own.pm": [
+    "dns_free"
+  ],
+  "*.owo.codes": [],
+  "ox.rs": [],
+  "oy.lc": [],
+  "pgfog.com": [
+    "static_paid",
+    "dns_paid"
+  ],
+  "pagexl.com": [
+    "static_free"
+  ],
+  "gotpantheon.com": [
+    "static_free"
+  ],
+  "pantheonsite.io": [
+    "static_free"
+  ],
+  "*.paywhirl.com": [],
+  "*.xmit.co": [],
+  "xmit.dev": [
+    "static_free"
+  ],
+  "madethis.site": [],
+  "srv.us": [
+    "dns_free"
+  ],
+  "gh.srv.us": [
+    "dns_free"
+  ],
+  "gl.srv.us": [
+    "dns_free"
+  ],
+  "mypep.link": [],
+  "pplx.app": [],
+  "perspecta.cloud": [],
+  "forgeblocks.com": [],
+  "id.forgerock.io": [],
+  "support.site": [
+    "static_paid"
+  ],
+  "on-web.fr": [],
+  "*.upsun.app": [],
+  "upsunapp.com": [],
+  "ent.platform.sh": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "eu.platform.sh": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "us.platform.sh": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.platformsh.site": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.tst.site": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "pley.games": [],
+  "onporter.run": [],
+  "co.bn": [],
+  "postman-echo.com": [],
+  "pstmn.io": [],
+  "mock.pstmn.io": [],
+  "httpbin.org": [],
+  "prequalifyme.today": [],
+  "xen.prgmr.com": [
+    "containers_paid"
+  ],
+  "priv.at": [],
+  "c01.kr": [],
+  "eliv-api.kr": [],
+  "eliv-cdn.kr": [],
+  "eliv-dns.kr": [],
+  "mmv.kr": [],
+  "vki.kr": [
+    "dns_free"
+  ],
+  "dev.project-study.com": [],
+  "protonet.io": [],
+  "platter-app.dev": [],
+  "e.id": [],
+  "chirurgiens-dentistes-en-france.fr": [
+    "static_paid"
+  ],
+  "byen.site": [],
+  "nyc.mn": [],
+  "*.cn.st": [
+    "dns_free"
+  ],
+  "pubtls.org": [
+    "dns_free"
+  ],
+  "pythonanywhere.com": [],
+  "eu.pythonanywhere.com": [],
+  "qa2.com": [],
+  "qcx.io": [],
+  "*.sys.qcx.io": [],
+  "myqnapcloud.cn": [],
+  "alpha-myqnapcloud.com": [],
+  "dev-myqnapcloud.com": [],
+  "mycloudnas.com": [],
+  "mynascloud.com": [],
+  "myqnapcloud.com": [
+    "dns_paid"
+  ],
+  "qoto.io": [],
+  "qualifioapp.com": [
+    "static_paid"
+  ],
+  "ladesk.com": [
+    "static_paid"
+  ],
+  "*.qualyhqpartner.com": [],
+  "*.qualyhqportal.com": [],
+  "qbuser.com": [],
+  "*.quipelements.com": [],
+  "vapor.cloud": [],
+  "vaporcloud.io": [],
+  "rackmaze.com": [],
+  "rackmaze.net": [],
+  "cloudsite.builders": [
+    "static_paid"
+  ],
+  "myradweb.net": [],
+  "servername.us": [],
+  "web.in": [],
+  "in.net": [],
+  "myrdbx.io": [],
+  "site.rb-hosting.io": [],
+  "up.railway.app": [],
+  "*.on-rancher.cloud": [],
+  "*.on-k3s.io": [],
+  "*.on-rio.io": [],
+  "ravpage.co.il": [],
+  "readthedocs-hosted.com": [
+    "static_paid"
+  ],
+  "readthedocs.io": [
+    "static_free"
+  ],
+  "rhcloud.com": [],
+  "instances.spawn.cc": [],
+  "*.clusters.rdpa.co": [],
+  "*.srvrless.rdpa.co": [],
+  "onrender.com": [],
+  "app.render.com": [
+    "static_free"
+  ],
+  "replit.app": [],
+  "id.replit.app": [],
+  "firewalledreplit.co": [],
+  "id.firewalledreplit.co": [],
+  "repl.co": [
+    "serverless_js_free"
+  ],
+  "id.repl.co": [
+    "serverless_js_free"
+  ],
+  "replit.dev": [
+    "serverless_js_free"
+  ],
+  "archer.replit.dev": [
+    "serverless_js_free"
+  ],
+  "bones.replit.dev": [
+    "serverless_js_free"
+  ],
+  "canary.replit.dev": [
+    "serverless_js_free"
+  ],
+  "global.replit.dev": [
+    "serverless_js_free"
+  ],
+  "hacker.replit.dev": [
+    "serverless_js_free"
+  ],
+  "id.replit.dev": [
+    "serverless_js_free"
+  ],
+  "janeway.replit.dev": [],
+  "kim.replit.dev": [
+    "serverless_js_free"
+  ],
+  "kira.replit.dev": [
+    "serverless_js_free"
+  ],
+  "kirk.replit.dev": [
+    "serverless_js_free"
+  ],
+  "odo.replit.dev": [
+    "serverless_js_free"
+  ],
+  "paris.replit.dev": [
+    "serverless_js_free"
+  ],
+  "picard.replit.dev": [
+    "serverless_js_free"
+  ],
+  "pike.replit.dev": [
+    "serverless_js_free"
+  ],
+  "prerelease.replit.dev": [
+    "serverless_js_free"
+  ],
+  "reed.replit.dev": [
+    "serverless_js_free"
+  ],
+  "riker.replit.dev": [
+    "serverless_js_free"
+  ],
+  "sisko.replit.dev": [
+    "serverless_js_free"
+  ],
+  "spock.replit.dev": [
+    "serverless_js_free"
+  ],
+  "staging.replit.dev": [
+    "serverless_js_free"
+  ],
+  "sulu.replit.dev": [
+    "serverless_js_free"
+  ],
+  "tarpit.replit.dev": [
+    "serverless_js_free"
+  ],
+  "teams.replit.dev": [
+    "serverless_js_free"
+  ],
+  "tucker.replit.dev": [
+    "serverless_js_free"
+  ],
+  "wesley.replit.dev": [
+    "serverless_js_free"
+  ],
+  "worf.replit.dev": [],
+  "repl.run": [],
+  "resindevice.io": [],
+  "devices.resinstaging.io": [],
+  "hzc.io": [],
+  "adimo.co.uk": [],
+  "itcouldbewor.se": [],
+  "aus.basketball": [],
+  "nz.basketball": [
+    "dns_paid"
+  ],
+  "subsc-pay.com": [],
+  "subsc-pay.net": [],
+  "git-pages.rit.edu": [],
+  "rocky.page": [],
+  "rub.de": [],
+  "ruhr-uni-bochum.de": [],
+  "io.noc.ruhr-uni-bochum.de": [],
+  "биз.рус": [],
+  "ком.рус": [],
+  "крым.рус": [],
+  "мир.рус": [],
+  "мск.рус": [],
+  "орг.рус": [],
+  "самара.рус": [],
+  "сочи.рус": [],
+  "спб.рус": [],
+  "я.рус": [],
+  "ras.ru": [],
+  "nyat.app": [],
+  "180r.com": [],
+  "dojin.com": [
+    "static_paid"
+  ],
+  "sakuratan.com": [],
+  "sakuraweb.com": [
+    "static_paid"
+  ],
+  "x0.com": [],
+  "2-d.jp": [
+    "static_paid"
+  ],
+  "bona.jp": [
+    "static_paid"
+  ],
+  "crap.jp": [
+    "static_paid"
+  ],
+  "daynight.jp": [
+    "static_paid"
+  ],
+  "eek.jp": [],
+  "flop.jp": [
+    "static_paid"
+  ],
+  "halfmoon.jp": [],
+  "jeez.jp": [
+    "static_paid"
+  ],
+  "matrix.jp": [],
+  "mimoza.jp": [
+    "static_paid"
+  ],
+  "ivory.ne.jp": [],
+  "mail-box.ne.jp": [],
+  "mints.ne.jp": [],
+  "mokuren.ne.jp": [],
+  "opal.ne.jp": [],
+  "sakura.ne.jp": [
+    "static_paid"
+  ],
+  "sumomo.ne.jp": [],
+  "topaz.ne.jp": [],
+  "netgamers.jp": [],
+  "nyanta.jp": [
+    "static_paid"
+  ],
+  "o0o0.jp": [],
+  "rdy.jp": [],
+  "rgr.jp": [],
+  "rulez.jp": [
+    "static_paid"
+  ],
+  "s3.isk01.sakurastorage.jp": [
+    "static_paid"
+  ],
+  "s3.isk02.sakurastorage.jp": [
+    "static_paid"
+  ],
+  "saloon.jp": [],
+  "sblo.jp": [],
+  "skr.jp": [],
+  "tank.jp": [],
+  "uh-oh.jp": [
+    "static_paid"
+  ],
+  "undo.jp": [
+    "static_paid"
+  ],
+  "rs.webaccel.jp": [
+    "static_paid"
+  ],
+  "user.webaccel.jp": [
+    "static_paid"
+  ],
+  "websozai.jp": [
+    "static_paid"
+  ],
+  "xii.jp": [
+    "static_paid"
+  ],
+  "squares.net": [
+    "static_paid"
+  ],
+  "jpn.org": [
+    "static_paid"
+  ],
+  "kirara.st": [
+    "static_paid"
+  ],
+  "x0.to": [
+    "static_paid"
+  ],
+  "from.tv": [],
+  "sakura.tv": [
+    "static_paid"
+  ],
+  "*.builder.code.com": [],
+  "*.dev-builder.code.com": [],
+  "*.stg-builder.code.com": [],
+  "*.001.test.code-builder-stg.platform.salesforce.com": [],
+  "*.aa.crm.dev": [],
+  "*.ab.crm.dev": [],
+  "*.ac.crm.dev": [],
+  "*.ad.crm.dev": [],
+  "*.ae.crm.dev": [],
+  "*.af.crm.dev": [],
+  "*.ci.crm.dev": [],
+  "*.d.crm.dev": [],
+  "*.pa.crm.dev": [],
+  "*.pb.crm.dev": [],
+  "*.pc.crm.dev": [],
+  "*.pd.crm.dev": [],
+  "*.pe.crm.dev": [],
+  "*.pf.crm.dev": [],
+  "*.w.crm.dev": [],
+  "*.wa.crm.dev": [],
+  "*.wb.crm.dev": [],
+  "*.wc.crm.dev": [],
+  "*.wd.crm.dev": [],
+  "*.we.crm.dev": [],
+  "*.wf.crm.dev": [],
+  "sandcats.io": [
+    "dns_free"
+  ],
+  "sav.case": [],
+  "logoip.com": [],
+  "logoip.de": [],
+  "fr-par-1.baremetal.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "fr-par-2.baremetal.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "nl-ams-1.baremetal.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "cockpit.fr-par.scw.cloud": [],
+  "ddl.fr-par.scw.cloud": [],
+  "dtwh.fr-par.scw.cloud": [],
+  "fnc.fr-par.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "functions.fnc.fr-par.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ifr.fr-par.scw.cloud": [],
+  "k8s.fr-par.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "nodes.k8s.fr-par.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "kafk.fr-par.scw.cloud": [],
+  "mgdb.fr-par.scw.cloud": [],
+  "rdb.fr-par.scw.cloud": [],
+  "s3.fr-par.scw.cloud": [
+    "static_paid"
+  ],
+  "s3-website.fr-par.scw.cloud": [
+    "static_paid"
+  ],
+  "scbl.fr-par.scw.cloud": [],
+  "whm.fr-par.scw.cloud": [
+    "static_paid"
+  ],
+  "priv.instances.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "pub.instances.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "k8s.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "cockpit.nl-ams.scw.cloud": [],
+  "ddl.nl-ams.scw.cloud": [],
+  "dtwh.nl-ams.scw.cloud": [],
+  "ifr.nl-ams.scw.cloud": [],
+  "k8s.nl-ams.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "nodes.k8s.nl-ams.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "kafk.nl-ams.scw.cloud": [],
+  "mgdb.nl-ams.scw.cloud": [],
+  "rdb.nl-ams.scw.cloud": [],
+  "s3.nl-ams.scw.cloud": [
+    "static_paid"
+  ],
+  "s3-website.nl-ams.scw.cloud": [
+    "static_paid"
+  ],
+  "scbl.nl-ams.scw.cloud": [],
+  "whm.nl-ams.scw.cloud": [
+    "static_paid"
+  ],
+  "cockpit.pl-waw.scw.cloud": [],
+  "ddl.pl-waw.scw.cloud": [],
+  "dtwh.pl-waw.scw.cloud": [],
+  "ifr.pl-waw.scw.cloud": [],
+  "k8s.pl-waw.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "nodes.k8s.pl-waw.scw.cloud": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "kafk.pl-waw.scw.cloud": [],
+  "mgdb.pl-waw.scw.cloud": [],
+  "rdb.pl-waw.scw.cloud": [],
+  "s3.pl-waw.scw.cloud": [
+    "static_paid"
+  ],
+  "s3-website.pl-waw.scw.cloud": [
+    "static_paid"
+  ],
+  "scbl.pl-waw.scw.cloud": [],
+  "scalebook.scw.cloud": [],
+  "smartlabeling.scw.cloud": [],
+  "dedibox.fr": [],
+  "schokokeks.net": [
+    "static_paid"
+  ],
+  "gov.scot": [],
+  "service.gov.scot": [],
+  "scrysec.com": [],
+  "client.scrypted.io": [],
+  "firewall-gateway.com": [],
+  "firewall-gateway.de": [],
+  "my-gateway.de": [],
+  "my-router.de": [
+    "dns_free"
+  ],
+  "spdns.de": [],
+  "spdns.eu": [],
+  "firewall-gateway.net": [],
+  "my-firewall.org": [
+    "dns_free"
+  ],
+  "myfirewall.org": [],
+  "spdns.org": [],
+  "seidat.net": [],
+  "sellfy.store": [
+    "static_paid"
+  ],
+  "minisite.ms": [],
+  "senseering.net": [],
+  "servebolt.cloud": [
+    "static_paid"
+  ],
+  "biz.ua": [],
+  "co.ua": [],
+  "pp.ua": [],
+  "as.sh.cn": [],
+  "sheezy.games": [],
+  "myshopblocks.com": [
+    "static_paid"
+  ],
+  "myshopify.com": [
+    "static_paid"
+  ],
+  "shopitsite.com": [
+    "static_paid"
+  ],
+  "shopware.shop": [],
+  "shopware.store": [],
+  "mo-siemens.io": [],
+  "1kapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "appchizi.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "applinzi.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "sinaapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "vipsinaapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "siteleaf.net": [],
+  "small-web.org": [],
+  "aeroport.fr": [],
+  "avocat.fr": [],
+  "chambagri.fr": [],
+  "chirurgiens-dentistes.fr": [],
+  "experts-comptables.fr": [],
+  "medecin.fr": [],
+  "notaires.fr": [],
+  "pharmacien.fr": [],
+  "port.fr": [],
+  "veterinaire.fr": [],
+  "vp4.me": [],
+  "*.snowflake.app": [],
+  "*.privatelink.snowflake.app": [],
+  "streamlit.app": [],
+  "streamlitapp.com": [],
+  "try-snowplow.com": [],
+  "mafelo.net": [],
+  "sol.site": [],
+  "playstation-cloud.com": [],
+  "srht.site": [
+    "static_paid"
+  ],
+  "apps.lair.io": [],
+  "*.stolos.io": [],
+  "4.at": [],
+  "my.at": [],
+  "my.de": [],
+  "*.nxa.eu": [],
+  "nx.gw": [],
+  "spawnbase.app": [],
+  "customer.speedpartner.de": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "myspreadshop.at": [
+    "static_free"
+  ],
+  "myspreadshop.com.au": [],
+  "myspreadshop.be": [
+    "static_free"
+  ],
+  "myspreadshop.ca": [],
+  "myspreadshop.ch": [],
+  "myspreadshop.com": [
+    "static_free"
+  ],
+  "myspreadshop.de": [],
+  "myspreadshop.dk": [],
+  "myspreadshop.es": [],
+  "myspreadshop.fi": [],
+  "myspreadshop.fr": [],
+  "myspreadshop.ie": [],
+  "myspreadshop.it": [],
+  "myspreadshop.net": [],
+  "myspreadshop.nl": [],
+  "myspreadshop.no": [],
+  "myspreadshop.pl": [],
+  "myspreadshop.se": [
+    "static_free"
+  ],
+  "myspreadshop.co.uk": [
+    "static_free"
+  ],
+  "w-corp-staticblitz.com": [
+    "static_free"
+  ],
+  "w-credentialless-staticblitz.com": [
+    "static_free"
+  ],
+  "w-staticblitz.com": [],
+  "bolt.host": [],
+  "stackhero-network.com": [],
+  "runs.onstackit.cloud": [],
+  "stackit.gg": [
+    "dns_paid"
+  ],
+  "stackit.rocks": [
+    "dns_paid"
+  ],
+  "stackit.run": [
+    "dns_paid"
+  ],
+  "stackit.zone": [],
+  "indevs.in": [],
+  "musician.io": [
+    "static_paid"
+  ],
+  "novecore.site": [],
+  "api.stdlib.com": [],
+  "statichost.page": [
+    "static_paid"
+  ],
+  "feedback.ac": [],
+  "forms.ac": [
+    "static_paid"
+  ],
+  "assessments.cx": [],
+  "calculators.cx": [],
+  "funnels.cx": [],
+  "paynow.cx": [],
+  "quizzes.cx": [],
+  "researched.cx": [],
+  "tests.cx": [],
+  "surveys.so": [],
+  "ipfs.storacha.link": [
+    "static_free"
+  ],
+  "ipfs.w3s.link": [
+    "static_free"
+  ],
+  "storebase.store": [],
+  "storj.farm": [],
+  "strapiapp.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "media.strapiapp.com": [
+    "static_paid"
+  ],
+  "vps-host.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "atl.jelastic.vps-host.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "njs.jelastic.vps-host.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "ric.jelastic.vps-host.net": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "streak-link.com": [],
+  "streaklinks.com": [],
+  "streakusercontent.com": [],
+  "soc.srcf.net": [],
+  "user.srcf.net": [],
+  "utwente.io": [],
+  "temp-dns.com": [],
+  "supabase.co": [
+    "static_free"
+  ],
+  "realtime.supabase.co": [],
+  "storage.supabase.co": [
+    "static_free"
+  ],
+  "supabase.in": [
+    "static_free"
+  ],
+  "supabase.net": [],
+  "syncloud.it": [
+    "dns_paid"
+  ],
+  "dscloud.biz": [],
+  "direct.quickconnect.cn": [
+    "dns_paid"
+  ],
+  "dsmynas.com": [
+    "dns_paid"
+  ],
+  "familyds.com": [
+    "dns_paid"
+  ],
+  "diskstation.me": [],
+  "dscloud.me": [],
+  "i234.me": [
+    "dns_paid"
+  ],
+  "myds.me": [
+    "dns_paid"
+  ],
+  "synology.me": [
+    "dns_paid"
+  ],
+  "dscloud.mobi": [],
+  "dsmynas.net": [],
+  "familyds.net": [
+    "dns_paid"
+  ],
+  "dsmynas.org": [],
+  "familyds.org": [],
+  "direct.quickconnect.to": [
+    "dns_paid"
+  ],
+  "vpnplus.to": [],
+  "mytabit.com": [],
+  "mytabit.co.il": [],
+  "tabitorder.co.il": [],
+  "taifun-dns.de": [],
+  "erp.dev": [],
+  "web.erp.dev": [],
+  "ts.net": [
+    "static_free"
+  ],
+  "*.c.ts.net": [
+    "static_free"
+  ],
+  "gda.pl": [],
+  "gdansk.pl": [],
+  "gdynia.pl": [],
+  "med.pl": [],
+  "sopot.pl": [],
+  "taveusercontent.com": [],
+  "p.tawk.email": [],
+  "p.tawkto.email": [],
+  "tche.br": [],
+  "site.tb-hosting.com": [],
+  "directwp.eu": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "ec.cc": [],
+  "eu.cc": [],
+  "gu.cc": [],
+  "uk.cc": [],
+  "us.cc": [],
+  "edugit.io": [],
+  "s3.teckids.org": [],
+  "telebit.app": [
+    "dns_free"
+  ],
+  "telebit.io": [
+    "dns_free"
+  ],
+  "*.telebit.xyz": [],
+  "teleport.sh": [],
+  "*.firenet.ch": [],
+  "*.svc.firenet.ch": [],
+  "reservd.com": [],
+  "thingdustdata.com": [],
+  "cust.dev.thingdust.io": [],
+  "reservd.dev.thingdust.io": [],
+  "cust.disrec.thingdust.io": [],
+  "reservd.disrec.thingdust.io": [],
+  "cust.prod.thingdust.io": [],
+  "cust.testing.thingdust.io": [],
+  "reservd.testing.thingdust.io": [],
+  "tickets.io": [
+    "static_paid"
+  ],
+  "arvo.network": [],
+  "azimuth.network": [],
+  "tlon.network": [],
+  "torproject.net": [],
+  "pages.torproject.net": [],
+  "townnews-staging.com": [],
+  "12hp.at": [],
+  "2ix.at": [],
+  "4lima.at": [],
+  "lima-city.at": [],
+  "12hp.ch": [],
+  "2ix.ch": [],
+  "4lima.ch": [],
+  "lima-city.ch": [],
+  "trafficplex.cloud": [],
+  "de.cool": [],
+  "12hp.de": [],
+  "2ix.de": [],
+  "4lima.de": [],
+  "lima-city.de": [],
+  "1337.pictures": [],
+  "clan.rip": [],
+  "lima-city.rocks": [],
+  "webspace.rocks": [],
+  "lima.zone": [],
+  "*.transurl.be": [],
+  "*.transurl.eu": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "site.transip.me": [],
+  "*.transurl.nl": [],
+  "*.triton.zone": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "tunnelmole.net": [],
+  "tuxfamily.org": [],
+  "typedream.app": [],
+  "pro.typeform.com": [
+    "static_paid"
+  ],
+  "uber.space": [],
+  "hk.com": [],
+  "inc.hk": [
+    "dns_paid"
+  ],
+  "ltd.hk": [],
+  "hk.org": [],
+  "it.com": [],
+  "umso.co": [
+    "static_paid"
+  ],
+  "unison-services.cloud": [],
+  "virtual-user.de": [],
+  "virtualuser.de": [],
+  "obj.ag": [],
+  "name.pm": [],
+  "sch.tf": [],
+  "biz.wf": [],
+  "sch.wf": [],
+  "org.yt": [],
+  "rs.ba": [],
+  "bielsko.pl": [],
+  "urown.cloud": [],
+  "dnsupdate.info": [],
+  "us.org": [],
+  "v.ua": [
+    "dns_paid"
+  ],
+  "val.run": [
+    "serverless_js_free"
+  ],
+  "web.val.run": [
+    "serverless_js_free"
+  ],
+  "vercel.app": [],
+  "v0.build": [],
+  "vercel.dev": [],
+  "vusercontent.net": [
+    "static_free"
+  ],
+  "vercel.run": [],
+  "now.sh": [],
+  "2038.io": [],
+  "v-info.info": [],
+  "vistablog.ir": [
+    "static_free"
+  ],
+  "deus-canvas.com": [],
+  "voorloper.cloud": [],
+  "*.vultrobjects.com": [
+    "static_paid"
+  ],
+  "wafflecell.com": [
+    "dns_paid"
+  ],
+  "wal.app": [],
+  "wasmer.app": [],
+  "webflow.io": [
+    "static_free"
+  ],
+  "webflowtest.io": [],
+  "*.webhare.dev": [],
+  "bookonline.app": [],
+  "hotelwithflight.com": [],
+  "reserve-online.com": [],
+  "reserve-online.net": [],
+  "cprapid.com": [],
+  "pleskns.com": [],
+  "wp2.host": [],
+  "pdns.page": [],
+  "plesk.page": [],
+  "cpanel.site": [],
+  "wpsquared.site": [],
+  "*.wadl.top": [],
+  "remotewd.com": [],
+  "box.ca": [],
+  "pages.wiardweb.com": [],
+  "toolforge.org": [],
+  "wmcloud.org": [],
+  "beta.wmcloud.org": [],
+  "wmflabs.org": [],
+  "vps.hrsn.au": [
+    "static_paid",
+    "serverless_js_paid",
+    "containers_paid"
+  ],
+  "hrsn.dev": [],
+  "is-a.dev": [],
+  "localcert.net": [],
+  "windsurf.app": [],
+  "windsurf.build": [],
+  "drive-platform.com": [],
+  "drive-platform.io": [],
+  "panel.gg": [],
+  "daemon.panel.gg": [],
+  "base44.app": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "base44-sandbox.com": [],
+  "wixsite.com": [],
+  "wixstudio.com": [],
+  "editorx.io": [
+    "static_free"
+  ],
+  "wixstudio.io": [],
+  "wix.run": [],
+  "messwithdns.com": [
+    "dns_free"
+  ],
+  "woltlab-demo.com": [
+    "static_free"
+  ],
+  "myforum.community": [],
+  "community-pro.de": [],
+  "diskussionsbereich.de": [],
+  "community-pro.net": [],
+  "meinforum.net": [],
+  "affinitylottery.org.uk": [],
+  "raffleentry.org.uk": [],
+  "weeklylottery.org.uk": [],
+  "wpenginepowered.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "js.wpenginepowered.com": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "*.xenonconnect.de": [
+    "dns_paid"
+  ],
+  "half.host": [
+    "static_paid",
+    "serverless_js_paid"
+  ],
+  "xnbay.com": [
+    "dns_paid"
+  ],
+  "u2.xnbay.com": [
+    "dns_paid"
+  ],
+  "u2-local.xnbay.com": [
+    "dns_paid"
+  ],
+  "cistron.nl": [],
+  "demon.nl": [
+    "dns_paid"
+  ],
+  "xs4all.space": [],
+  "xtooldevice.com": [],
+  "yandexcloud.net": [],
+  "storage.yandexcloud.net": [
+    "static_paid"
+  ],
+  "website.yandexcloud.net": [
+    "static_paid"
+  ],
+  "sourcecraft.site": [],
+  "official.academy": [
+    "static_paid"
+  ],
+  "yolasite.com": [],
+  "ynh.fr": [],
+  "nohost.me": [],
+  "noho.st": [],
+  "za.net": [],
+  "za.org": [],
+  "zap.cloud": [],
+  "zeabur.app": [],
+  "*.zerops.app": [],
+  "bss.design": [],
+  "basicserver.io": [],
+  "virtualserver.io": [],
+  "enterprisecloud.nu": [],
+  "zone.id": [],
+  "nett.to": [],
+  "zabc.net": []
+}
