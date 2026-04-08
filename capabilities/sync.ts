@@ -16,7 +16,7 @@ const pslDomains: string[] = [];
 for (let i = beginIdx + 1; i < endIdx; i++) {
   const line = lines[i].trim();
   if (!line || line.startsWith("//")) continue;
-  pslDomains.push(line);
+  pslDomains.push(line.replace(/^\*\./, ""));
 }
 
 // Load existing capabilities.json if present

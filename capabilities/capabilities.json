@@ -13,7 +13,7 @@
   "611.to": [],
   "a2hosted.com": [],
   "cpserver.com": [],
-  "*.on-acorn.io": [],
+  "on-acorn.io": [],
   "activetrail.biz": [],
   "adaptable.app": [],
   "myaddr.dev": [],
@@ -21,7 +21,7 @@
   "dyn.addr.tools": [],
   "myaddr.tools": [],
   "adobeaemcloud.com": [],
-  "*.dev.adobeaemcloud.com": [],
+  "dev.adobeaemcloud.com": [],
   "aem.live": [],
   "hlx.live": [],
   "adobeaemcloud.net": [],
@@ -34,7 +34,7 @@
     "serverless_js_paid"
   ],
   "africa.com": [],
-  "*.auiusercontent.com": [],
+  "auiusercontent.com": [],
   "beep.pl": [],
   "aiven.app": [],
   "aivencloud.com": [],
@@ -54,8 +54,8 @@
   "edgesuite.net": [],
   "edgesuite-staging.net": [],
   "barsy.ca": [],
-  "*.compute.estate": [],
-  "*.alces.network": [],
+  "compute.estate": [],
+  "alces.network": [],
   "alibabacloudcs.com": [],
   "ms.fun": [],
   "ms.show": [],
@@ -206,17 +206,17 @@
   "auth.us-west-2.amazoncognito.com": [],
   "auth-fips.us-west-2.amazoncognito.com": [],
   "auth.cognito-idp.eusc-de-east-1.on.amazonwebservices.eu": [],
-  "*.compute.amazonaws.com.cn": [
+  "compute.amazonaws.com.cn": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
   ],
-  "*.compute.amazonaws.com": [
+  "compute.amazonaws.com": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
   ],
-  "*.compute-1.amazonaws.com": [
+  "compute-1.amazonaws.com": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
@@ -321,107 +321,107 @@
   "emrappui-prod.us-west-2.amazonaws.com": [],
   "emrnotebooks-prod.us-west-2.amazonaws.com": [],
   "emrstudio-prod.us-west-2.amazonaws.com": [],
-  "*.airflow.af-south-1.on.aws": [],
-  "*.airflow.ap-east-1.on.aws": [],
-  "*.airflow.ap-northeast-1.on.aws": [],
-  "*.airflow.ap-northeast-2.on.aws": [],
-  "*.airflow.ap-northeast-3.on.aws": [],
-  "*.airflow.ap-south-1.on.aws": [],
-  "*.airflow.ap-south-2.on.aws": [],
-  "*.airflow.ap-southeast-1.on.aws": [],
-  "*.airflow.ap-southeast-2.on.aws": [],
-  "*.airflow.ap-southeast-3.on.aws": [],
-  "*.airflow.ap-southeast-4.on.aws": [],
-  "*.airflow.ap-southeast-5.on.aws": [],
-  "*.airflow.ca-central-1.on.aws": [],
-  "*.airflow.ca-west-1.on.aws": [],
-  "*.airflow.eu-central-1.on.aws": [],
-  "*.airflow.eu-central-2.on.aws": [],
-  "*.airflow.eu-north-1.on.aws": [],
-  "*.airflow.eu-south-1.on.aws": [],
-  "*.airflow.eu-south-2.on.aws": [],
-  "*.airflow.eu-west-1.on.aws": [],
-  "*.airflow.eu-west-2.on.aws": [],
-  "*.airflow.eu-west-3.on.aws": [],
-  "*.airflow.il-central-1.on.aws": [],
-  "*.airflow.me-central-1.on.aws": [],
-  "*.airflow.me-south-1.on.aws": [],
-  "*.airflow.sa-east-1.on.aws": [],
-  "*.airflow.us-east-1.on.aws": [],
-  "*.airflow.us-east-2.on.aws": [],
-  "*.airflow.us-west-1.on.aws": [],
-  "*.airflow.us-west-2.on.aws": [],
-  "*.cn-north-1.airflow.amazonaws.com.cn": [],
-  "*.cn-northwest-1.airflow.amazonaws.com.cn": [],
-  "*.airflow.cn-north-1.on.amazonwebservices.com.cn": [],
-  "*.airflow.cn-northwest-1.on.amazonwebservices.com.cn": [],
-  "*.af-south-1.airflow.amazonaws.com": [],
-  "*.ap-east-1.airflow.amazonaws.com": [],
-  "*.ap-northeast-1.airflow.amazonaws.com": [],
-  "*.ap-northeast-2.airflow.amazonaws.com": [],
-  "*.ap-northeast-3.airflow.amazonaws.com": [],
-  "*.ap-south-1.airflow.amazonaws.com": [],
-  "*.ap-south-2.airflow.amazonaws.com": [],
-  "*.ap-southeast-1.airflow.amazonaws.com": [],
-  "*.ap-southeast-2.airflow.amazonaws.com": [],
-  "*.ap-southeast-3.airflow.amazonaws.com": [],
-  "*.ap-southeast-4.airflow.amazonaws.com": [],
-  "*.ap-southeast-5.airflow.amazonaws.com": [],
-  "*.ap-southeast-7.airflow.amazonaws.com": [],
-  "*.ca-central-1.airflow.amazonaws.com": [],
-  "*.ca-west-1.airflow.amazonaws.com": [],
-  "*.eu-central-1.airflow.amazonaws.com": [],
-  "*.eu-central-2.airflow.amazonaws.com": [],
-  "*.eu-north-1.airflow.amazonaws.com": [],
-  "*.eu-south-1.airflow.amazonaws.com": [],
-  "*.eu-south-2.airflow.amazonaws.com": [],
-  "*.eu-west-1.airflow.amazonaws.com": [],
-  "*.eu-west-2.airflow.amazonaws.com": [],
-  "*.eu-west-3.airflow.amazonaws.com": [],
-  "*.il-central-1.airflow.amazonaws.com": [],
-  "*.me-central-1.airflow.amazonaws.com": [],
-  "*.me-south-1.airflow.amazonaws.com": [],
-  "*.sa-east-1.airflow.amazonaws.com": [],
-  "*.us-east-1.airflow.amazonaws.com": [],
-  "*.us-east-2.airflow.amazonaws.com": [],
-  "*.us-west-1.airflow.amazonaws.com": [],
-  "*.us-west-2.airflow.amazonaws.com": [],
-  "*.rds.cn-north-1.amazonaws.com.cn": [],
-  "*.rds.cn-northwest-1.amazonaws.com.cn": [],
-  "*.af-south-1.rds.amazonaws.com": [],
-  "*.ap-east-1.rds.amazonaws.com": [],
-  "*.ap-east-2.rds.amazonaws.com": [],
-  "*.ap-northeast-1.rds.amazonaws.com": [],
-  "*.ap-northeast-2.rds.amazonaws.com": [],
-  "*.ap-northeast-3.rds.amazonaws.com": [],
-  "*.ap-south-1.rds.amazonaws.com": [],
-  "*.ap-south-2.rds.amazonaws.com": [],
-  "*.ap-southeast-1.rds.amazonaws.com": [],
-  "*.ap-southeast-2.rds.amazonaws.com": [],
-  "*.ap-southeast-3.rds.amazonaws.com": [],
-  "*.ap-southeast-4.rds.amazonaws.com": [],
-  "*.ap-southeast-5.rds.amazonaws.com": [],
-  "*.ap-southeast-6.rds.amazonaws.com": [],
-  "*.ap-southeast-7.rds.amazonaws.com": [],
-  "*.ca-central-1.rds.amazonaws.com": [],
-  "*.ca-west-1.rds.amazonaws.com": [],
-  "*.eu-central-1.rds.amazonaws.com": [],
-  "*.eu-central-2.rds.amazonaws.com": [],
-  "*.eu-west-1.rds.amazonaws.com": [],
-  "*.eu-west-2.rds.amazonaws.com": [],
-  "*.eu-west-3.rds.amazonaws.com": [],
-  "*.il-central-1.rds.amazonaws.com": [],
-  "*.me-central-1.rds.amazonaws.com": [],
-  "*.me-south-1.rds.amazonaws.com": [],
-  "*.mx-central-1.rds.amazonaws.com": [],
-  "*.sa-east-1.rds.amazonaws.com": [],
-  "*.us-east-1.rds.amazonaws.com": [],
-  "*.us-east-2.rds.amazonaws.com": [],
-  "*.us-gov-east-1.rds.amazonaws.com": [],
-  "*.us-gov-west-1.rds.amazonaws.com": [],
-  "*.us-northeast-1.rds.amazonaws.com": [],
-  "*.us-west-1.rds.amazonaws.com": [],
-  "*.us-west-2.rds.amazonaws.com": [],
+  "airflow.af-south-1.on.aws": [],
+  "airflow.ap-east-1.on.aws": [],
+  "airflow.ap-northeast-1.on.aws": [],
+  "airflow.ap-northeast-2.on.aws": [],
+  "airflow.ap-northeast-3.on.aws": [],
+  "airflow.ap-south-1.on.aws": [],
+  "airflow.ap-south-2.on.aws": [],
+  "airflow.ap-southeast-1.on.aws": [],
+  "airflow.ap-southeast-2.on.aws": [],
+  "airflow.ap-southeast-3.on.aws": [],
+  "airflow.ap-southeast-4.on.aws": [],
+  "airflow.ap-southeast-5.on.aws": [],
+  "airflow.ca-central-1.on.aws": [],
+  "airflow.ca-west-1.on.aws": [],
+  "airflow.eu-central-1.on.aws": [],
+  "airflow.eu-central-2.on.aws": [],
+  "airflow.eu-north-1.on.aws": [],
+  "airflow.eu-south-1.on.aws": [],
+  "airflow.eu-south-2.on.aws": [],
+  "airflow.eu-west-1.on.aws": [],
+  "airflow.eu-west-2.on.aws": [],
+  "airflow.eu-west-3.on.aws": [],
+  "airflow.il-central-1.on.aws": [],
+  "airflow.me-central-1.on.aws": [],
+  "airflow.me-south-1.on.aws": [],
+  "airflow.sa-east-1.on.aws": [],
+  "airflow.us-east-1.on.aws": [],
+  "airflow.us-east-2.on.aws": [],
+  "airflow.us-west-1.on.aws": [],
+  "airflow.us-west-2.on.aws": [],
+  "cn-north-1.airflow.amazonaws.com.cn": [],
+  "cn-northwest-1.airflow.amazonaws.com.cn": [],
+  "airflow.cn-north-1.on.amazonwebservices.com.cn": [],
+  "airflow.cn-northwest-1.on.amazonwebservices.com.cn": [],
+  "af-south-1.airflow.amazonaws.com": [],
+  "ap-east-1.airflow.amazonaws.com": [],
+  "ap-northeast-1.airflow.amazonaws.com": [],
+  "ap-northeast-2.airflow.amazonaws.com": [],
+  "ap-northeast-3.airflow.amazonaws.com": [],
+  "ap-south-1.airflow.amazonaws.com": [],
+  "ap-south-2.airflow.amazonaws.com": [],
+  "ap-southeast-1.airflow.amazonaws.com": [],
+  "ap-southeast-2.airflow.amazonaws.com": [],
+  "ap-southeast-3.airflow.amazonaws.com": [],
+  "ap-southeast-4.airflow.amazonaws.com": [],
+  "ap-southeast-5.airflow.amazonaws.com": [],
+  "ap-southeast-7.airflow.amazonaws.com": [],
+  "ca-central-1.airflow.amazonaws.com": [],
+  "ca-west-1.airflow.amazonaws.com": [],
+  "eu-central-1.airflow.amazonaws.com": [],
+  "eu-central-2.airflow.amazonaws.com": [],
+  "eu-north-1.airflow.amazonaws.com": [],
+  "eu-south-1.airflow.amazonaws.com": [],
+  "eu-south-2.airflow.amazonaws.com": [],
+  "eu-west-1.airflow.amazonaws.com": [],
+  "eu-west-2.airflow.amazonaws.com": [],
+  "eu-west-3.airflow.amazonaws.com": [],
+  "il-central-1.airflow.amazonaws.com": [],
+  "me-central-1.airflow.amazonaws.com": [],
+  "me-south-1.airflow.amazonaws.com": [],
+  "sa-east-1.airflow.amazonaws.com": [],
+  "us-east-1.airflow.amazonaws.com": [],
+  "us-east-2.airflow.amazonaws.com": [],
+  "us-west-1.airflow.amazonaws.com": [],
+  "us-west-2.airflow.amazonaws.com": [],
+  "rds.cn-north-1.amazonaws.com.cn": [],
+  "rds.cn-northwest-1.amazonaws.com.cn": [],
+  "af-south-1.rds.amazonaws.com": [],
+  "ap-east-1.rds.amazonaws.com": [],
+  "ap-east-2.rds.amazonaws.com": [],
+  "ap-northeast-1.rds.amazonaws.com": [],
+  "ap-northeast-2.rds.amazonaws.com": [],
+  "ap-northeast-3.rds.amazonaws.com": [],
+  "ap-south-1.rds.amazonaws.com": [],
+  "ap-south-2.rds.amazonaws.com": [],
+  "ap-southeast-1.rds.amazonaws.com": [],
+  "ap-southeast-2.rds.amazonaws.com": [],
+  "ap-southeast-3.rds.amazonaws.com": [],
+  "ap-southeast-4.rds.amazonaws.com": [],
+  "ap-southeast-5.rds.amazonaws.com": [],
+  "ap-southeast-6.rds.amazonaws.com": [],
+  "ap-southeast-7.rds.amazonaws.com": [],
+  "ca-central-1.rds.amazonaws.com": [],
+  "ca-west-1.rds.amazonaws.com": [],
+  "eu-central-1.rds.amazonaws.com": [],
+  "eu-central-2.rds.amazonaws.com": [],
+  "eu-west-1.rds.amazonaws.com": [],
+  "eu-west-2.rds.amazonaws.com": [],
+  "eu-west-3.rds.amazonaws.com": [],
+  "il-central-1.rds.amazonaws.com": [],
+  "me-central-1.rds.amazonaws.com": [],
+  "me-south-1.rds.amazonaws.com": [],
+  "mx-central-1.rds.amazonaws.com": [],
+  "sa-east-1.rds.amazonaws.com": [],
+  "us-east-1.rds.amazonaws.com": [],
+  "us-east-2.rds.amazonaws.com": [],
+  "us-gov-east-1.rds.amazonaws.com": [],
+  "us-gov-west-1.rds.amazonaws.com": [],
+  "us-northeast-1.rds.amazonaws.com": [],
+  "us-west-1.rds.amazonaws.com": [],
+  "us-west-2.rds.amazonaws.com": [],
   "s3.dualstack.cn-north-1.amazonaws.com.cn": [
     "static_paid"
   ],
@@ -1318,7 +1318,7 @@
   "studio.us-west-2.sagemaker.aws": [],
   "studio.cn-north-1.sagemaker.com.cn": [],
   "studio.cn-northwest-1.sagemaker.com.cn": [],
-  "*.experiments.sagemaker.aws": [],
+  "experiments.sagemaker.aws": [],
   "analytics-gateway.ap-northeast-1.amazonaws.com": [],
   "analytics-gateway.ap-northeast-2.amazonaws.com": [],
   "analytics-gateway.ap-south-1.amazonaws.com": [],
@@ -1333,7 +1333,7 @@
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.awsapprunner.com": [
+  "awsapprunner.com": [
     "serverless_js_paid",
     "containers_paid"
   ],
@@ -1635,12 +1635,12 @@
     "serverless_js_paid",
     "containers_paid"
   ],
-  "*.elb.amazonaws.com.cn": [
+  "elb.amazonaws.com.cn": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
   ],
-  "*.elb.amazonaws.com": [
+  "elb.amazonaws.com": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
@@ -1760,7 +1760,7 @@
     "serverless_js_paid",
     "containers_paid"
   ],
-  "*.private.repost.aws": [],
+  "private.repost.aws": [],
   "transfer-webapp.af-south-1.on.aws": [],
   "transfer-webapp.ap-east-1.on.aws": [],
   "transfer-webapp.ap-northeast-1.on.aws": [],
@@ -1812,20 +1812,20 @@
   ],
   "siiites.com": [],
   "int.apple": [],
-  "*.cloud.int.apple": [],
-  "*.r.cloud.int.apple": [],
-  "*.ap-north-1.r.cloud.int.apple": [],
-  "*.ap-south-1.r.cloud.int.apple": [],
-  "*.ap-south-2.r.cloud.int.apple": [],
-  "*.eu-central-1.r.cloud.int.apple": [],
-  "*.eu-north-1.r.cloud.int.apple": [],
-  "*.us-central-1.r.cloud.int.apple": [],
-  "*.us-central-2.r.cloud.int.apple": [],
-  "*.us-east-1.r.cloud.int.apple": [],
-  "*.us-east-2.r.cloud.int.apple": [],
-  "*.us-west-1.r.cloud.int.apple": [],
-  "*.us-west-2.r.cloud.int.apple": [],
-  "*.us-west-3.r.cloud.int.apple": [],
+  "cloud.int.apple": [],
+  "r.cloud.int.apple": [],
+  "ap-north-1.r.cloud.int.apple": [],
+  "ap-south-1.r.cloud.int.apple": [],
+  "ap-south-2.r.cloud.int.apple": [],
+  "eu-central-1.r.cloud.int.apple": [],
+  "eu-north-1.r.cloud.int.apple": [],
+  "us-central-1.r.cloud.int.apple": [],
+  "us-central-2.r.cloud.int.apple": [],
+  "us-east-1.r.cloud.int.apple": [],
+  "us-east-2.r.cloud.int.apple": [],
+  "us-west-1.r.cloud.int.apple": [],
+  "us-west-2.r.cloud.int.apple": [],
+  "us-west-3.r.cloud.int.apple": [],
   "appspacehosted.com": [
     "static_paid"
   ],
@@ -1839,7 +1839,7 @@
   "appwrite.network": [
     "static_free"
   ],
-  "*.appwrite.run": [],
+  "appwrite.run": [],
   "on-aptible.com": [
     "static_paid",
     "serverless_js_paid",
@@ -1861,8 +1861,8 @@
   "cdn.prod.atlassian-dev.net": [],
   "myfritz.link": [],
   "myfritz.net": [],
-  "*.awdev.ca": [],
-  "*.advisor.ws": [
+  "awdev.ca": [],
+  "advisor.ws": [
     "static_paid",
     "serverless_js_paid"
   ],
@@ -1907,12 +1907,12 @@
   "bearblog.dev": [
     "static_free"
   ],
-  "*.beget.app": [
+  "beget.app": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
   ],
-  "*.begetcdn.cloud": [],
+  "begetcdn.cloud": [],
   "pages.gay": [
     "static_free"
   ],
@@ -1946,11 +1946,11 @@
   "bplaced.net": [],
   "square7.net": [],
   "brave.app": [],
-  "*.s.brave.app": [],
+  "s.brave.app": [],
   "brave.dev": [],
-  "*.s.brave.dev": [],
+  "s.brave.dev": [],
   "brave.io": [],
-  "*.s.brave.io": [],
+  "s.brave.io": [],
   "shop.brendly.ba": [
     "static_free"
   ],
@@ -1969,7 +1969,7 @@
   "bubbleapps.io": [
     "static_free"
   ],
-  "*.bwcloud-os-instance.de": [],
+  "bwcloud-os-instance.de": [],
   "uk0.bigv.io": [],
   "dh.bytemark.co.uk": [
     "static_paid",
@@ -2047,18 +2047,18 @@
   "discourse.team": [],
   "clerk.app": [],
   "clerkstage.app": [],
-  "*.lcl.dev": [
+  "lcl.dev": [
     "dns_free"
   ],
-  "*.lclstage.dev": [
+  "lclstage.dev": [
     "dns_free"
   ],
-  "*.stg.dev": [
+  "stg.dev": [
     "dns_free"
   ],
-  "*.stgstage.dev": [],
+  "stgstage.dev": [],
   "cleverapps.cc": [],
-  "*.services.clever-cloud.com": [
+  "services.clever-cloud.com": [
     "static_paid"
   ],
   "cleverapps.io": [],
@@ -2126,7 +2126,7 @@
     "static_paid"
   ],
   "cloudbeesusercontent.io": [],
-  "*.cloudera.site": [],
+  "cloudera.site": [],
   "cloudflare.app": [],
   "cf-ipfs.com": [],
   "cloudflare-ipfs.com": [
@@ -2159,7 +2159,7 @@
   ],
   "wnext.app": [],
   "cnpy.gdn": [],
-  "*.otap.co": [],
+  "otap.co": [],
   "co.ca": [],
   "co.com": [
     "dns_paid"
@@ -2169,7 +2169,7 @@
   "preview.csb.app": [],
   "co.nl": [],
   "co.no": [],
-  "*.devinapps.com": [],
+  "devinapps.com": [],
   "webhosting.be": [],
   "prvw.eu": [
     "static_paid"
@@ -2221,7 +2221,7 @@
   ],
   "realm.cz": [],
   "on.crisp.email": [],
-  "*.cryptonomic.net": [],
+  "cryptonomic.net": [],
   "cfolks.pl": [],
   "cyon.link": [],
   "cyon.site": [
@@ -2279,7 +2279,7 @@
   "deta.dev": [],
   "deuxfleurs.eu": [],
   "deuxfleurs.page": [],
-  "*.at.ply.gg": [
+  "at.ply.gg": [
     "dns_free"
   ],
   "d6.ply.gg": [
@@ -2291,7 +2291,7 @@
   "playit.plus": [
     "dns_free"
   ],
-  "*.at.playit.plus": [
+  "at.playit.plus": [
     "dns_free"
   ],
   "with.playit.plus": [
@@ -2301,7 +2301,7 @@
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.raw.icp0.io": [
+  "raw.icp0.io": [
     "static_paid",
     "serverless_js_paid"
   ],
@@ -2309,11 +2309,11 @@
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.raw.icp1.io": [
+  "raw.icp1.io": [
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.icp.net": [],
+  "icp.net": [],
   "caffeine.site": [],
   "caffeine.xyz": [],
   "mybox.company": [],
@@ -2324,7 +2324,7 @@
   "dkonto.pl": [],
   "you2.pl": [],
   "ondigitalocean.app": [],
-  "*.digitaloceanspaces.com": [
+  "digitaloceanspaces.com": [
     "static_paid"
   ],
   "qzz.io": [],
@@ -2686,7 +2686,7 @@
   "e4.cz": [],
   "easypanel.app": [],
   "easypanel.host": [],
-  "*.ewp.live": [],
+  "ewp.live": [],
   "twmail.cc": [
     "static_paid"
   ],
@@ -2927,7 +2927,7 @@
   "map.fastlylb.net": [
     "static_paid"
   ],
-  "*.user.fm": [
+  "user.fm": [
     "static_paid"
   ],
   "fastvps-server.com": [
@@ -2988,7 +2988,7 @@
   "framer.wiki": [
     "static_free"
   ],
-  "*.0e.vc": [],
+  "0e.vc": [],
   "freebox-os.com": [],
   "freeboxos.com": [],
   "fbx-os.fr": [],
@@ -2999,7 +2999,7 @@
   "freemyip.com": [
     "dns_free"
   ],
-  "*.frusky.de": [
+  "frusky.de": [
     "dns_free"
   ],
   "wien.funkfeuer.at": [],
@@ -3044,13 +3044,13 @@
   "mydns.vc": [
     "dns_free"
   ],
-  "*.futurecms.at": [
+  "futurecms.at": [
     "static_paid"
   ],
-  "*.ex.futurecms.at": [
+  "ex.futurecms.at": [
     "static_paid"
   ],
-  "*.in.futurecms.at": [
+  "in.futurecms.at": [
     "static_paid"
   ],
   "futurehosting.at": [
@@ -3059,13 +3059,13 @@
   "futuremailing.at": [
     "static_paid"
   ],
-  "*.ex.ortsinfo.at": [
+  "ex.ortsinfo.at": [
     "static_paid"
   ],
-  "*.kunden.ortsinfo.at": [
+  "kunden.ortsinfo.at": [
     "static_paid"
   ],
-  "*.statics.cloud": [
+  "statics.cloud": [
     "static_paid"
   ],
   "gadget.app": [
@@ -3262,17 +3262,17 @@
   "heteml.net": [],
   "graphic.design": [],
   "goip.de": [],
-  "*.hosted.app": [],
-  "*.run.app": [
+  "hosted.app": [],
+  "run.app": [
     "containers_free"
   ],
-  "*.mtls.run.app": [],
+  "mtls.run.app": [],
   "web.app": [
     "static_free"
   ],
-  "*.0emm.com": [],
+  "0emm.com": [],
   "appspot.com": [],
-  "*.r.appspot.com": [],
+  "r.appspot.com": [],
   "blogspot.com": [],
   "codespot.com": [],
   "googleapis.com": [
@@ -3282,10 +3282,10 @@
   "pagespeedmobilizer.com": [],
   "withgoogle.com": [],
   "withyoutube.com": [],
-  "*.gateway.dev": [],
+  "gateway.dev": [],
   "cloud.goog": [],
   "translate.goog": [],
-  "*.usercontent.goog": [],
+  "usercontent.goog": [],
   "cloudfunctions.net": [
     "serverless_js_free"
   ],
@@ -3352,9 +3352,9 @@
   "homesklep.pl": [
     "static_paid"
   ],
-  "*.kin.one": [],
-  "*.id.pub": [],
-  "*.kin.pub": [],
+  "kin.one": [],
+  "id.pub": [],
+  "kin.pub": [],
   "hoplix.shop": [
     "static_free"
   ],
@@ -3380,7 +3380,7 @@
   ],
   "iobb.net": [],
   "co.cz": [],
-  "*.moonscale.io": [],
+  "moonscale.io": [],
   "moonscale.net": [],
   "gr.com": [],
   "iki.fi": [],
@@ -3504,9 +3504,9 @@
   "websitebuilder.online": [],
   "app-ionos.space": [],
   "iopsys.se": [],
-  "*.inbrowser.dev": [],
-  "*.dweb.link": [],
-  "*.inbrowser.link": [],
+  "inbrowser.dev": [],
+  "dweb.link": [],
+  "inbrowser.link": [],
   "ipifony.net": [],
   "ir.md": [],
   "is-a-good.dev": [],
@@ -3710,10 +3710,10 @@
   "phx.enscaled.us": [],
   "mircloud.us": [],
   "myjino.ru": [],
-  "*.hosting.myjino.ru": [],
-  "*.landing.myjino.ru": [],
-  "*.spectrum.myjino.ru": [],
-  "*.vps.myjino.ru": [],
+  "hosting.myjino.ru": [],
+  "landing.myjino.ru": [],
+  "spectrum.myjino.ru": [],
+  "vps.myjino.ru": [],
   "jote.cloud": [],
   "jotelulu.cloud": [],
   "eu1-plenit.com": [],
@@ -3821,8 +3821,8 @@
     "static_paid",
     "containers_paid"
   ],
-  "*.nodebalancer.linode.com": [],
-  "*.linodeobjects.com": [
+  "nodebalancer.linode.com": [],
+  "linodeobjects.com": [
     "static_paid"
   ],
   "ip.linodeusercontent.com": [
@@ -3834,11 +3834,11 @@
     "dns_free"
   ],
   "ggff.net": [],
-  "*.user.localcert.dev": [],
+  "user.localcert.dev": [],
   "localtonet.com": [
     "dns_free"
   ],
-  "*.localto.net": [],
+  "localto.net": [],
   "lodz.pl": [],
   "pabianice.pl": [],
   "plock.pl": [],
@@ -3946,10 +3946,10 @@
   "barsyonline.co.uk": [
     "dns_paid"
   ],
-  "*.lutrausercontent.com": [],
+  "lutrausercontent.com": [],
   "luyani.app": [],
   "luyani.net": [],
-  "*.magentosite.cloud": [],
+  "magentosite.cloud": [],
   "magicpatterns.app": [],
   "magicpatternsapp.com": [],
   "hb.cldmail.ru": [],
@@ -3986,7 +3986,7 @@
   "messerli.app": [],
   "atmeta.com": [],
   "apps.fbsbx.com": [],
-  "*.cloud.metacentrum.cz": [],
+  "cloud.metacentrum.cz": [],
   "custom.metacentrum.cz": [],
   "flt.cloud.muni.cz": [],
   "usr.cloud.muni.cz": [],
@@ -3999,7 +3999,7 @@
     "serverless_js_paid"
   ],
   "co.pl": [],
-  "*.azurecontainer.io": [
+  "azurecontainer.io": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
@@ -4338,17 +4338,17 @@
   ],
   "pointto.us": [],
   "stage.nodeart.io": [],
-  "*.developer.app": [],
+  "developer.app": [],
   "noop.app": [],
-  "*.northflank.app": [
+  "northflank.app": [
     "containers_free"
   ],
-  "*.build.run": [],
-  "*.code.run": [
+  "build.run": [],
+  "code.run": [
     "containers_free"
   ],
-  "*.database.run": [],
-  "*.migration.run": [],
+  "database.run": [],
+  "migration.run": [],
   "noticeable.news": [
     "static_paid"
   ],
@@ -4430,48 +4430,48 @@
   "localplayer.dev": [],
   "is-local.org": [],
   "opensocial.site": [],
-  "*.oaiusercontent.com": [],
+  "oaiusercontent.com": [],
   "opencraft.hosting": [],
   "16-b.it": [],
   "32-b.it": [],
   "64-b.it": [],
   "orsites.com": [],
   "operaunite.com": [],
-  "*.customer-oci.com": [
+  "customer-oci.com": [
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.oci.customer-oci.com": [
+  "oci.customer-oci.com": [
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.ocp.customer-oci.com": [
+  "ocp.customer-oci.com": [
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.ocs.customer-oci.com": [
+  "ocs.customer-oci.com": [
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.oraclecloudapps.com": [
+  "oraclecloudapps.com": [
     "static_paid"
   ],
-  "*.oraclegovcloudapps.com": [],
-  "*.oraclegovcloudapps.uk": [],
+  "oraclegovcloudapps.com": [],
+  "oraclegovcloudapps.uk": [],
   "tech.orange": [],
   "can.re": [],
   "authgear-staging.com": [],
   "authgearapps.com": [],
   "outsystemscloud.com": [],
-  "*.hosting.ovh.net": [],
-  "*.webpaas.ovh.net": [],
+  "hosting.ovh.net": [],
+  "webpaas.ovh.net": [],
   "ownprovider.com": [
     "dns_free"
   ],
   "own.pm": [
     "dns_free"
   ],
-  "*.owo.codes": [],
+  "owo.codes": [],
   "ox.rs": [],
   "oy.lc": [],
   "pgfog.com": [
@@ -4487,8 +4487,8 @@
   "pantheonsite.io": [
     "static_free"
   ],
-  "*.paywhirl.com": [],
-  "*.xmit.co": [],
+  "paywhirl.com": [],
+  "xmit.co": [],
   "xmit.dev": [
     "static_free"
   ],
@@ -4511,7 +4511,7 @@
     "static_paid"
   ],
   "on-web.fr": [],
-  "*.upsun.app": [],
+  "upsun.app": [],
   "upsunapp.com": [],
   "ent.platform.sh": [
     "static_paid",
@@ -4525,11 +4525,11 @@
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.platformsh.site": [
+  "platformsh.site": [
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.tst.site": [
+  "tst.site": [
     "static_paid",
     "serverless_js_paid"
   ],
@@ -4562,7 +4562,7 @@
   ],
   "byen.site": [],
   "nyc.mn": [],
-  "*.cn.st": [
+  "cn.st": [
     "dns_free"
   ],
   "pubtls.org": [
@@ -4572,7 +4572,7 @@
   "eu.pythonanywhere.com": [],
   "qa2.com": [],
   "qcx.io": [],
-  "*.sys.qcx.io": [],
+  "sys.qcx.io": [],
   "myqnapcloud.cn": [],
   "alpha-myqnapcloud.com": [],
   "dev-myqnapcloud.com": [],
@@ -4588,10 +4588,10 @@
   "ladesk.com": [
     "static_paid"
   ],
-  "*.qualyhqpartner.com": [],
-  "*.qualyhqportal.com": [],
+  "qualyhqpartner.com": [],
+  "qualyhqportal.com": [],
   "qbuser.com": [],
-  "*.quipelements.com": [],
+  "quipelements.com": [],
   "vapor.cloud": [],
   "vaporcloud.io": [],
   "rackmaze.com": [],
@@ -4606,9 +4606,9 @@
   "myrdbx.io": [],
   "site.rb-hosting.io": [],
   "up.railway.app": [],
-  "*.on-rancher.cloud": [],
-  "*.on-k3s.io": [],
-  "*.on-rio.io": [],
+  "on-rancher.cloud": [],
+  "on-k3s.io": [],
+  "on-rio.io": [],
   "ravpage.co.il": [],
   "readthedocs-hosted.com": [
     "static_paid"
@@ -4618,8 +4618,8 @@
   ],
   "rhcloud.com": [],
   "instances.spawn.cc": [],
-  "*.clusters.rdpa.co": [],
-  "*.srvrless.rdpa.co": [],
+  "clusters.rdpa.co": [],
+  "srvrless.rdpa.co": [],
   "onrender.com": [],
   "app.render.com": [
     "static_free"
@@ -4837,31 +4837,31 @@
   "sakura.tv": [
     "static_paid"
   ],
-  "*.builder.code.com": [],
-  "*.dev-builder.code.com": [],
-  "*.stg-builder.code.com": [],
-  "*.001.test.code-builder-stg.platform.salesforce.com": [],
-  "*.aa.crm.dev": [],
-  "*.ab.crm.dev": [],
-  "*.ac.crm.dev": [],
-  "*.ad.crm.dev": [],
-  "*.ae.crm.dev": [],
-  "*.af.crm.dev": [],
-  "*.ci.crm.dev": [],
-  "*.d.crm.dev": [],
-  "*.pa.crm.dev": [],
-  "*.pb.crm.dev": [],
-  "*.pc.crm.dev": [],
-  "*.pd.crm.dev": [],
-  "*.pe.crm.dev": [],
-  "*.pf.crm.dev": [],
-  "*.w.crm.dev": [],
-  "*.wa.crm.dev": [],
-  "*.wb.crm.dev": [],
-  "*.wc.crm.dev": [],
-  "*.wd.crm.dev": [],
-  "*.we.crm.dev": [],
-  "*.wf.crm.dev": [],
+  "builder.code.com": [],
+  "dev-builder.code.com": [],
+  "stg-builder.code.com": [],
+  "001.test.code-builder-stg.platform.salesforce.com": [],
+  "aa.crm.dev": [],
+  "ab.crm.dev": [],
+  "ac.crm.dev": [],
+  "ad.crm.dev": [],
+  "ae.crm.dev": [],
+  "af.crm.dev": [],
+  "ci.crm.dev": [],
+  "d.crm.dev": [],
+  "pa.crm.dev": [],
+  "pb.crm.dev": [],
+  "pc.crm.dev": [],
+  "pd.crm.dev": [],
+  "pe.crm.dev": [],
+  "pf.crm.dev": [],
+  "w.crm.dev": [],
+  "wa.crm.dev": [],
+  "wb.crm.dev": [],
+  "wc.crm.dev": [],
+  "wd.crm.dev": [],
+  "we.crm.dev": [],
+  "wf.crm.dev": [],
   "sandcats.io": [
     "dns_free"
   ],
@@ -5067,8 +5067,8 @@
   "port.fr": [],
   "veterinaire.fr": [],
   "vp4.me": [],
-  "*.snowflake.app": [],
-  "*.privatelink.snowflake.app": [],
+  "snowflake.app": [],
+  "privatelink.snowflake.app": [],
   "streamlit.app": [],
   "streamlitapp.com": [],
   "try-snowplow.com": [],
@@ -5079,11 +5079,11 @@
     "static_paid"
   ],
   "apps.lair.io": [],
-  "*.stolos.io": [],
+  "stolos.io": [],
   "4.at": [],
   "my.at": [],
   "my.de": [],
-  "*.nxa.eu": [],
+  "nxa.eu": [],
   "nx.gw": [],
   "spawnbase.app": [],
   "customer.speedpartner.de": [
@@ -5258,7 +5258,7 @@
   "ts.net": [
     "static_free"
   ],
-  "*.c.ts.net": [
+  "c.ts.net": [
     "static_free"
   ],
   "gda.pl": [],
@@ -5288,10 +5288,10 @@
   "telebit.io": [
     "dns_free"
   ],
-  "*.telebit.xyz": [],
+  "telebit.xyz": [],
   "teleport.sh": [],
-  "*.firenet.ch": [],
-  "*.svc.firenet.ch": [],
+  "firenet.ch": [],
+  "svc.firenet.ch": [],
   "reservd.com": [],
   "thingdustdata.com": [],
   "cust.dev.thingdust.io": [],
@@ -5329,14 +5329,14 @@
   "lima-city.rocks": [],
   "webspace.rocks": [],
   "lima.zone": [],
-  "*.transurl.be": [],
-  "*.transurl.eu": [
+  "transurl.be": [],
+  "transurl.eu": [
     "static_paid",
     "serverless_js_paid"
   ],
   "site.transip.me": [],
-  "*.transurl.nl": [],
-  "*.triton.zone": [
+  "transurl.nl": [],
+  "triton.zone": [
     "static_paid",
     "serverless_js_paid",
     "containers_paid"
@@ -5396,7 +5396,7 @@
   ],
   "deus-canvas.com": [],
   "voorloper.cloud": [],
-  "*.vultrobjects.com": [
+  "vultrobjects.com": [
     "static_paid"
   ],
   "wafflecell.com": [
@@ -5408,7 +5408,7 @@
     "static_free"
   ],
   "webflowtest.io": [],
-  "*.webhare.dev": [],
+  "webhare.dev": [],
   "bookonline.app": [],
   "hotelwithflight.com": [],
   "reserve-online.com": [],
@@ -5420,7 +5420,7 @@
   "plesk.page": [],
   "cpanel.site": [],
   "wpsquared.site": [],
-  "*.wadl.top": [],
+  "wadl.top": [],
   "remotewd.com": [],
   "box.ca": [],
   "pages.wiardweb.com": [],
@@ -5476,7 +5476,7 @@
     "static_paid",
     "serverless_js_paid"
   ],
-  "*.xenonconnect.de": [
+  "xenonconnect.de": [
     "dns_paid"
   ],
   "half.host": [
@@ -5517,7 +5517,7 @@
   "za.org": [],
   "zap.cloud": [],
   "zeabur.app": [],
-  "*.zerops.app": [],
+  "zerops.app": [],
   "bss.design": [],
   "basicserver.io": [],
   "virtualserver.io": [],
