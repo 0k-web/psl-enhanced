@@ -2065,53 +2065,83 @@
   "cleverapps.tech": [],
   "clickrising.net": [],
   "cloudns.asia": [
-    "dns_free"
+    "dns_paid"
   ],
   "cloudns.be": [
-    "dns_free"
+    "dns_paid"
   ],
-  "cloud-ip.biz": [],
+  "cloud-ip.biz": [
+    "dns_paid"
+  ],
   "cloudns.biz": [
-    "dns_free"
+    "dns_paid"
   ],
-  "cloud-ip.cc": [],
+  "cloud-ip.cc": [
+    "dns_paid"
+  ],
   "cloudns.cc": [
-    "dns_free"
+    "dns_paid"
   ],
-  "cloudns.ch": [],
+  "cloudns.ch": [
+    "dns_paid"
+  ],
   "cloudns.cl": [
-    "dns_free"
+    "dns_paid"
   ],
-  "cloudns.club": [],
-  "abrdns.com": [],
+  "cloudns.club": [
+    "dns_paid"
+  ],
+  "abrdns.com": [
+    "dns_paid"
+  ],
   "dnsabr.com": [
+    "dns_paid"
+  ],
+  "ip-ddns.com": [
     "dns_free"
   ],
-  "ip-ddns.com": [],
   "cloudns.cx": [
-    "dns_free"
+    "dns_paid"
   ],
   "cloudns.eu": [
-    "dns_free"
+    "dns_paid"
   ],
   "cloudns.in": [
-    "dns_free"
+    "dns_paid"
   ],
   "cloudns.info": [
+    "dns_paid"
+  ],
+  "ddns-ip.net": [
     "dns_free"
   ],
-  "ddns-ip.net": [],
-  "dns-cloud.net": [],
-  "dns-dynamic.net": [],
-  "cloudns.nz": [],
+  "dns-cloud.net": [
+    "dns_paid"
+  ],
+  "dns-dynamic.net": [
+    "dns_paid"
+  ],
+  "cloudns.nz": [
+    "dns_paid"
+  ],
   "cloudns.org": [
-    "dns_free"
+    "dns_paid"
   ],
-  "ip-dynamic.org": [],
-  "cloudns.ph": [],
-  "cloudns.pro": [],
-  "cloudns.pw": [],
-  "cloudns.us": [],
+  "ip-dynamic.org": [
+    "dns_paid"
+  ],
+  "cloudns.ph": [
+    "dns_paid"
+  ],
+  "cloudns.pro": [
+    "dns_paid"
+  ],
+  "cloudns.pw": [
+    "dns_paid"
+  ],
+  "cloudns.us": [
+    "dns_paid"
+  ],
   "c66.me": [],
   "cloud66.ws": [],
   "jdevcloud.com": [],
